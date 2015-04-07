@@ -116,19 +116,21 @@ body {
 	-moz-transition: all .2s ease;
 	-o-transition: all .2s ease;
 	transition: all .2s ease;
-}
+	overflow:hidden;
+	}
 
-.box h4
-{
+.box h4 {
 	font-size:2em;
 	color: #1b1f30;
-}
+	}
+	
+.box h4 span {
+	font-size:1em;
+	}
 
-.box p
-{
+.box p {
 	font-size:1.25em;
-}
-
+	}
 
 .footer {
 	width:100%;
@@ -278,17 +280,18 @@ body {
 	margin-bottom:16px;
 	}
 
-.box.fourth {
-	}
-
 .box h4 {
 	font-size:1.25em;
 	color: #1b1f30;
 	margin-top: 0;
 }
 
+.box h4 span {
+	font-size:0.75em;
+	}
+
 .box p {
-	font-size:0.9em;
+	font-size:0.75em;
 }
 
 .footer {
