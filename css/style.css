@@ -100,7 +100,7 @@ body {
 }
 
 .box {
-	display: inline-block;
+	display:inline-block;
 	text-align:left;
 	width:90%;
 	font-size:16px;
@@ -115,8 +115,13 @@ body {
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
 	-o-transition: all .2s ease;
-	transition: all .2s ease;
-	overflow:hidden;
+	transition: all .2s ease; 
+	}
+
+.box.cta {
+	background:#fff;
+	border-color:#7FB148;
+	display:none;
 	}
 
 .box h4 {
@@ -130,6 +135,8 @@ body {
 
 .box p {
 	font-size:1.25em;
+	padding:0;
+	margin:0;
 	}
 
 .footer {
@@ -143,24 +150,24 @@ body {
 	padding-top:0;
 	}
 .box {
-	display: inline-block;
 	width:325px;
 	height:150px;
 	font-size:12px;
-	border: 1px solid #D9D9D9;
-/*	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4); */
 	margin: 0 16px 10px 0;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-	column-break-inside: avoid;
 	padding:1em;
-	background: -webkit-linear-gradient(-45deg, #fff, #F1F1F1);
-	opacity: 1;
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	transition: all .2s ease;
+	overflow:hidden;
+	vertical-align:top; /* THIS IF FOR SAFARI, WHICH, FOR SOME REASON, IS NOT RESPONDING TO OVERFLOW:HIDDEN; */
 	}
+	
+.box.cta {
+	height:auto;
+	padding-bottom:0;
+	}
+
+.box p span {
+	font-size:0.9em;
+	}
+
 }
 
 @media screen and (min-width: 992px) {
@@ -249,6 +256,7 @@ body {
 	border-color:#6F74B7;
 	margin-left:16px;
 	}
+	
 .btn1:hover {
 	background-color:#6f74b7;
 	}
@@ -269,6 +277,7 @@ body {
 	border-color:#EE6225;
 	margin-right:0;
 	}
+	
 .btn3:hover {
 	background-color:#EE6225;
 	}
@@ -280,6 +289,18 @@ body {
 	margin-bottom:16px;
 	}
 
+.box.cta { /* THIS IS FOR THE CALL TO ACTION BOXES AT TOP */
+	width:488px;
+	height:50px;
+	padding:0.5em;
+	line-height:2em;
+	text-align:center;
+	}
+	
+.box.cta p {
+	font-size:0.9em;
+	}
+	
 .box h4 {
 	font-size:1.25em;
 	color: #1b1f30;
