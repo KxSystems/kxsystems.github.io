@@ -121,7 +121,7 @@ body {
 .box.cta {
 	background:#fff;
 	border-color:#7FB148;
-	display:none;
+	display:none; /* WE DECIDED NOT TO USE THESE */
 	}
 
 .box h4 {
