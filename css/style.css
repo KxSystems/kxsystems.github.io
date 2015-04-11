@@ -9,8 +9,8 @@ body {
 	margin-bottom:5px;
 }
 .header .container {
-	background-image:url(../images/GitHub-Logo-105x74.png);
-	background-position:10px 10px;
+	background-image:url(../images/GitHub-Logo-85x60.png);
+	background-position:10px 30px;
 	background-repeat:no-repeat;
 	width:100%;
 	text-align:center;
@@ -27,6 +27,16 @@ body {
 	margin-right:0;
 	clear:both;
 	}
+	
+.call_to_action a { /* THIS IS FOR THE CALL TO ACTION BOXES AT TOP */
+	color:#00BCEE;
+	text-decoration:underline;
+	}
+	
+.call_to_action a:hover {
+	text-decoration:none;
+	}
+
 .container-fluid {
 	padding:0;
 	width:100%;
@@ -167,7 +177,6 @@ body {
 .box p span {
 	font-size:0.9em;
 	}
-
 }
 
 @media screen and (min-width: 992px) {
@@ -183,23 +192,29 @@ body {
 	max-width:996px;;
 	padding-top:0;
 }
+
 .header h1 {
 	font-size:2.25em;
+	font-weight:300;
 	padding-top:0;
-	padding-bottom:0em;
+	padding-bottom:0;
+	position:relative;
+	top:-4px;
 	}
+	
 .floatright {
 	float:right;
 	margin-right:6px;
 	}
+	
 .page_title {
 	 text-align:left;
 	 padding-left:15px;
-	 height:136px;
+	 height:140px;
 	 border-left:2px #747474 solid;
-	 padding-top:84px;
-	 margin-top:20px;
+	 margin-top:36px;
 	 }
+
 .boxheader { /* header for boxes */
 	background-color: #353C42;
 	text-transform: uppercase;
@@ -207,22 +222,9 @@ body {
 	margin: 3px;
 }
 
-.boxtitle .title {
-	font-family: Helvetica;
-	letter-spacing: 2px;
-	font-size: 16px;
-	margin-left:20px;
-	line-height:40px;
-	vertical-align: bottom;
-	color:#fff
-}
-
-.clrdiv {
-	clear: both;
-}
 .btn {
   display:inline-block;
-  padding:6px 12px;
+  padding:3px 12px;
   margin-bottom:0;
   font-size:16px;
   letter-spacing:2px;
@@ -246,15 +248,15 @@ body {
 	width: 222px;
 	border: 4px solid;
 	border-left:3px solid;
-	margin-top:58px;
+	margin-top:50px;
 	margin-right:24px;
 	}
 	
 .btn-primary.btn1 {
-	background: url(../images/GitHub-Buttons-225px.png) no-repeat; /* PURPLE */
-	background-position:left -1px;
+	background: url(../images/GitHub-Buttons-200px.png) no-repeat; /* PURPLE */
+	background-position:left -2px;
 	border-color:#6F74B7;
-	margin-left:16px;
+	margin-left:2px;
 	}
 	
 .btn1:hover {
@@ -262,8 +264,8 @@ body {
 	}
 
 .btn-primary.btn2 {
-	background: url(../images/GitHub-Buttons-225px.png) no-repeat; /* BLUE */
-	background-position:left -82px;
+	background: url(../images/GitHub-Buttons-200px.png) no-repeat; /* BLUE */
+	background-position:left -73px;
 	border-color:#1c75bc;
 	margin-right:24px;
 	}
@@ -272,8 +274,8 @@ body {
 	}
 
 .btn-primary.btn3 {
-	background: url(../images/GitHub-Buttons-225px.png) no-repeat; /* ORANGE */
-	background-position:left -169px;
+	background: url(../images/GitHub-Buttons-200px.png) no-repeat; /* ORANGE */
+	background-position:left -151px;
 	border-color:#EE6225;
 	margin-right:0;
 	}
@@ -289,16 +291,22 @@ body {
 	margin-bottom:16px;
 	}
 
-.box.cta { /* THIS IS FOR THE CALL TO ACTION BOXES AT TOP */
-	width:488px;
-	height:50px;
-	padding:0.5em;
-	line-height:2em;
-	text-align:center;
+.call_to_action {
+	padding-left:20px;
+	padding-top:40px;
+	text-align:left;
+	}
+
+	
+.call_to_action p {
+	margin:0;
+	margin-bottom:4px;
+	letter-spacing:0.8px
 	}
 	
-.box.cta p {
-	font-size:0.9em;
+.call_to_action p::before {
+	content:url('../images/Call_To_Action-BUTTON3.png') ' ';
+	vertical-align:-30%;
 	}
 	
 .box h4 {
