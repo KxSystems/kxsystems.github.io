@@ -305,7 +305,7 @@ body {
 	}
 	
 .call_to_action p::before {
-	content:url('../images/Call_To_Action-BUTTON3.png') ' ';
+	content:url(../images/Call_To_Action-BUTTON3.png) ' ';
 	vertical-align:-30%;
 	}
 	
