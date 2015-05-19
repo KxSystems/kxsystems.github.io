@@ -97,7 +97,7 @@ body {
 	margin-left:20px;
 	line-height:40px;
 	vertical-align: bottom;
-	color:#fff
+	color:#fff;
 }
 
 .clrdiv {
@@ -106,7 +106,8 @@ body {
 
 #wrapper {
 	margin: 0 auto;
-	max-width:1030px;;
+	max-width:1030px;
+	max-width:94%; /* TEST WIDENER 150519 */
 }
 
 .box {
@@ -172,6 +173,7 @@ body {
 .box.cta {
 	height:auto;
 	padding-bottom:0;
+	display:none;
 	}
 
 .box p span {
