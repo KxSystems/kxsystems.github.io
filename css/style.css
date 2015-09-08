@@ -6,7 +6,7 @@ body {
 .header {
 	background: #353C42;
 	color: #fff;
-	margin-bottom:5px;
+	margin-bottom:1em;
 }
 .header .container {
 	background-image:url(../images/GitHub-Logo-85x60.png);
@@ -83,17 +83,17 @@ body {
 	background:#EE6225;
 }
 
-.boxheader { /* header for boxes */ 
+.box_newheader { /* header for boxes */ 
 	background-color: #353C42;
 	text-transform: uppercase;
 	position: relative;
 	margin: 3px;
 }
 
-.boxtitle .title {
+.box_newtitle .title {
 	font-family: Helvetica;
 	letter-spacing: 2px;
-	font-size: 16px;
+	font-size: 1em;
 	margin-left:20px;
 	line-height:40px;
 	vertical-align: bottom;
@@ -107,44 +107,46 @@ body {
 #wrapper {
 	margin: 0 auto;
 	max-width:1030px;
-	max-width:94%; /* TEST WIDENER 150519 */
 }
 
-.box {
-	display:inline-block;
+.box_new {
+	display:block;
 	text-align:left;
-	width:90%;
-	font-size:16px;
-	border: 1px solid #D9D9D9;
-	margin: 0 0 10px 0;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-	column-break-inside: avoid;
-	padding:1em;
-	background: -webkit-linear-gradient(-45deg, #fff, #F1F1F1);
+	width:100%;
+	font-size:1em;
+	padding:0;
 	opacity: 1;
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	transition: all .2s ease; 
+	margin: 0 0 0.5em 0.5em;
 	}
 
-.box.cta {
-	background:#fff;
-	border-color:#7FB148;
-	display:none; /* WE DECIDED NOT TO USE THESE */
-	}
-
-.box h4 {
+.box_new h4 {
 	font-size:2em;
 	color: #1b1f30;
-	}
-	
-.box h4 span {
-	font-size:1em;
+	margin-right:0.5em;
 	}
 
-.box p {
+.box_featured h1 {
+	font-size:1.5em;
+	font-weight:bold;
+	color: #1b1f30;
+	margin:0;
+	padding:0;
+	margin-bottom:0.5em;
+	}
+.box_featured {
+	padding:0.5em;
+	border:#666 solid 1px;
+	background:#E9E9E9;
+	margin-bottom:1em;
+	}	
+.box_new h4::after {
+	content:':';
+	}
+
+.box_new h4 span {
+	}
+
+.box_new p {
 	font-size:1.25em;
 	padding:0;
 	margin:0;
@@ -160,24 +162,12 @@ body {
 .header .container {
 	padding-top:0;
 	}
-.box {
-	width:325px;
-	height:150px;
-	font-size:12px;
-	margin: 0 16px 10px 0;
-	padding:1em;
-	overflow:hidden;
+.box_new {
+	font-size:1em;
 	vertical-align:top; /* THIS IF FOR SAFARI, WHICH, FOR SOME REASON, IS NOT RESPONDING TO OVERFLOW:HIDDEN; */
 	}
 	
-.box.cta {
-	height:auto;
-	padding-bottom:0;
-	display:none;
-	}
-
-.box p span {
-	font-size:0.9em;
+.box_new p span {
 	}
 }
 
@@ -187,7 +177,6 @@ body {
 @media screen and (min-width:1024px) {
 .header {
 	height:300px;
-	margin-bottom:58px;
 }
 .header .container {
 	background-position:0 20px;
@@ -217,7 +206,7 @@ body {
 	 margin-top:36px;
 	 }
 
-.boxheader { /* header for boxes */
+.box_newheader { /* header for boxes */
 	background-color: #353C42;
 	text-transform: uppercase;
 	position: relative;
@@ -286,13 +275,6 @@ body {
 	background-color:#EE6225;
 	}
 
-.box {
-	width:236px;
-	font-size:16px;
-	margin-right:10px;
-	margin-bottom:16px;
-	}
-
 .call_to_action {
 	padding-left:20px;
 	padding-top:40px;
@@ -310,20 +292,29 @@ body {
 	content:url(../images/Call_To_Action-BUTTON3.png) ' ';
 	vertical-align:-30%;
 	}
-	
-.box h4 {
+
+.box_new {
+	padding-left:1em;
+	text-indent:-1em;
+	}	
+.box_new h4 {
 	font-size:1.25em;
 	color: #1b1f30;
 	margin-top: 0;
+	display:inline;
 }
 
-.box h4 span {
-	font-size:0.75em;
+.box_new::before {
+	content:'• ';
+	}
+	
+
+.box_new h4 span {
 	}
 
-.box p {
-	font-size:0.75em;
-}
+.box_new p {
+	display:inline;
+  }
 
 .footer {
 	width:100%;
