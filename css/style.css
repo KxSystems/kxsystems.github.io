@@ -135,6 +135,7 @@ body {
 	}
 .box_featured {
 	padding:0.5em;
+	padding-top:1em;
 	border:#666 solid 1px;
 	background:#E9E9E9;
 	margin-bottom:1em;
