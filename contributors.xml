@@ -1,0 +1,2264 @@
+<?xml version="1.0"?>
+<contributors>
+
+	<contributor display-name="Samuel Reed" sort-name="Samuel Reed" personal-name="Samuel" family-name="Reed">
+		<email>samuel.trace.reed@gmail.com</email>
+		<url>http://www.bitmex.com</url>
+		<url>https://www.linkedin.com/in/strml</url>
+		<country>China</country>
+		<bio>Bitcoin Mercantile Exchange, Hong Kong</bio>
+		<github user="BitMEX">
+			<repository name="c.js">
+				<description>
+					Serialization/deserialization library for communicating with kdb+'s native IPC format.
+					This repository is refactoring of the c.js project 
+					with performance improvements, bugfixes, and unit tests.
+				</description>
+				<interface to="JavaScript"/>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="J.P. Armstrong" sort-name="J.P. Armstrong" personal-name="J.P." family-name="Armstrong">
+		<email>j.p.armstriong@gmail.com</email>
+		<country>USA</country>
+		<bio>New York City</bio>
+		<github user="jparmstrong">
+			<repository name="qphue">
+				<description>
+					 A simple KDB+/Q web app to control your Philip's Hue Bridge. 
+					 Designed to turn on/off lights, change the scene, and retrieve bridge/light info.
+				</description>
+				<interface to="Philips Hue"/>
+			</repository>
+		</github>
+	</contributor>
+
+
+	<contributor display-name="Jack Andrews" sort-name="Jack Andrews" personal-name="Jack" family-name="Andrews">
+		<email>effbiae@gmail.com</email>
+		<img>https://plus.google.com/+JackAndrews0/about?pid=6081110770144474962&amp;oid=103352306947630257133</img>
+		<url>http://www.ivorykite.com/</url>
+		<github user="effbiae">
+			<repository name="kx">
+				<description>
+					collection of kx related code from code.kx.com and the lists.
+					r is a small parser for RPN. 
+					g is to g.k as x is to xterm.
+					sc dynamically calls functions by their address on AMD_64.
+				</description>
+				<category>Utilities</category>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Jing Chen" sort-name="Jin Cheng" personal-name="Jing" family-name="Cheng">
+		<email>jvictorchen@gmail.com</email>
+		<twitter>@jingc</twitter>
+		<url>https://www.linkedin.com/in/jing-chen-3534255</url>
+		<img>https://pbs.twimg.com/profile_images/460542857422467072/pumBbAQW.jpeg</img>
+		<country>USA</country>
+		<github user="jvictorchen">
+			<repository name="IKdbQ">
+				<description>
+					simple kernel for Jupyter project 
+					that allows you to write KDB+/Q code with Jupyter console and notebook.
+				</description>
+				<interface to="Jupyter"/>
+				<os>Linux</os>
+				<os>Mac</os>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Lucas Martin-King" sort-name="Martin-King, Lucas" personal-name="Lucas" family-name="Martin-King">
+		<email>lmartinking@gmail.com</email>
+		<country>Australia</country>
+		<bio>Melbourne</bio>
+		<url>http://irrationalidiom.com/</url>
+		<github user="lmartinking">
+			<repository name="broq">
+				<description>
+					Brotli file decompression plugin for kdb+/q
+				</description>
+				<category>Utilities</category>
+				<os>Mac</os>
+				<os>Linux</os>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="ytzchaim" sort-name="ytzchaim">
+		<email>ytzchaim@gmail.com</email>
+		<country>Greece</country>
+		<github user="ytz">
+			<repository name="KGraphicalExtension">
+				<description>
+					A GUI toolkit that connects to a kdb+ servers, 
+					allowing the representation of variables on the server in GUI widgets
+				</description>
+				<category>Utilities</category>
+				<tag>gui</tag>
+			</repository>
+			<!--
+				empty repo
+			<repository name="comp-generator"/>
+			-->
+		</github>
+	</contributor>
+
+	<contributor display-name="Zak Oudrhiri" sort-name="OudrhiriZak" personal-name="Zakarriya" family-name="Oudrhiri">
+		<url>https://www.linkedin.com/in/zakariyya-oudrhiri-28636030</url>
+		<img>https://media.licdn.com/media/p/1/000/1a3/281/1f4999c.jpg</img>
+		<bio>kdb+ at Citi</bio>
+		<country>UK</country>
+		<email>zak.oudrhiri@hotmail.com</email>
+		<github user="zakoud">
+			<repository name="mlq">
+				<description>Machine Learning for kdb+/q</description>
+				<category>Examples</category>
+			</repository>
+			<repository name="options">
+				<description>option-pricing functions</description>
+				<category>Mathematics</category>
+			</repository>
+		</github>
+	</contributor>
+
+
+
+
+
+	<contributor display-name="Yang Guo" sort-name="GuoYang" personal-name="Yang" family-name="Guo">
+		<url>https://www.linkedin.com/in/yang-guo-19494ba</url>
+		<country>USA</country>
+		<bio>Associate, FX eTrading at Citi, NYC</bio>
+		<github user="yang-guo">
+			<repository name="qserver">
+				<description>Q server for R</description>
+				<interface to="R"/>
+			</repository>
+			<repository name="qp">
+				<description>
+					a helper that makes installation for q more standardized and easier to use
+				</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="conn">
+				<description>
+					Hooks into .z.pc and .z.po for better connection handling.
+				</description>
+				<category>Utilities</category>
+			</repository>
+			<repository name="timer">
+				<description>
+					Overwrites .z.ts to become a timer based callback function
+				</description>
+				<category>Utilities</category>
+			</repository>
+		</github>
+	</contributor>
+
+
+	<contributor display-name="Whitney Jackson" sort-name="JacksonWhitney" personal-name="Whitney" family-name="Jackson">
+		<github user="wjackson">
+			<repository name="k-perl">
+				<description>bindings for Perl</description>
+				<interface to="Perl"/>
+			</repository>
+			<repository name="qzmq">
+				<description>bindings for ZeroMQ</description>
+				<interface to="ZeroMQ"/>
+				<os>Linux</os>
+				<os>Windows</os>
+			</repository>
+			<repository name="anyevent-k">
+				<description>non-blocking interface from Perl</description>
+				<interface to="Perl"/>
+			</repository>
+		</github>
+	</contributor>
+
+
+
+
+
+	<contributor display-name="Tomas Celaya" sort-name="CelayaTomas" personal-name="Tomas" family-name="Celaya">
+		<email>tcelaya@gmail.com</email>
+		<bio>
+			Web Developer with a passion for data visualization and esoteric indie gaming.
+			Miami, FL
+		</bio>
+		<img>https://avatars2.githubusercontent.com/u/1973223</img>
+		<country>USA</country>
+		<github user="tjcelaya">
+			<repository name="qcrypt">
+				<description>
+					 copy of the AquaQ Analytics contrib folder for qcrypt, 
+					 a small interface to the OpenSSL library, 
+					 compiled and with a makefile
+				</description>
+				<tag>utilitie</tag>
+			</repository>
+			<repository name="jwt.q">
+				<description>
+					JSON Web Token signing and parsing for kdb+/Q
+				</description>
+				<category>Utilities</category>
+				<os>Linux</os>
+			</repository>
+			<repository name="game-of-life">
+				<description>
+					Conway’s Game of Life
+				</description>
+				<category>Examples</category>
+			</repository>
+		</github>
+	</contributor>
+
+
+
+	<contributor display-name="Thomas Lackner" sort-name="LacknerThomas" personal-name="Thomas" family-name="Lackner">
+		<email>lackner@gmail.com</email>
+		<country>USA</country>
+		<img>https://avatars3.githubusercontent.com/u/534827</img>
+		<url>https://www.linkedin.com/in/thomas-lackner-2461</url>
+		<github user="tlack">
+			<repository name="quagga">
+				<description>
+					an experiment in building a web-based development environment for Q/Kdb+
+				</description>
+				<category>Web</category>
+			</repository>
+			<repository name="qmvp">
+				<description>
+					Q Minimum Viable Product is a barebones boiler-plate Q webserver 
+					that includes templating, serving from html/, index files, and logging.
+				</description>
+				<category>Applications</category>
+				<category>Web</category>
+			</repository>
+			<repository name="persist-state.q">
+				<description>
+					save the state of your q session when you exit, and restore it when you start again
+				</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="qqq">
+				<description>
+					useful functions for creating websites with Q and Kdb+
+				</description>
+				<category>Web</category>
+			</repository>
+			<repository name="qwa">
+				<description>
+					Microservice that performs analytics duties for your website
+				</description>
+				<category>Web</category>
+			</repository>
+		</github>
+	</contributor>
+
+
+
+
+	<contributor display-name="Tamaghna Roy" sort-name="RoyTamaghna" personal-name="Tamaghna" family-name="Roy">
+		<url>https://www.linkedin.com/in/tamaghna-roy-89b0696</url>
+		<img>https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/1e0/18a/154a381.jpg</img>
+		<country>China</country>
+		<bio>Trader at Bevan Howard, Hong Kong</bio>
+		<!--
+			All GitHub repositories empty, no changes since initial commit of 2015.07.12
+		<github user="tamaghnaroy">
+			<repository name="q"/>
+		</github>
+	-->
+	</contributor>
+
+	<contributor display-name="Stevan Apter" sort-name="ApterStevan" personal-name="Stevan" family-name="Apter">
+		<url>https://www.linkedin.com/in/stevan-apter-1ba50488</url>
+		<img>https://media.licdn.com/media/p/3/005/08c/0c9/274f359.jpg</img>
+		<bio>distinguished developer at 1010data</bio>
+		<country>USA</country>
+		<url>http://www.nsl.com</url>
+		<email>webmail@nsl.com</email>
+		<github user="stevanapter">
+			<repository name="hypertree" featured="yes">
+				<description>
+					recursive aggregating treetable and 3-d pivot table for hypergrid
+				</description>
+				<category>Examples</category>
+			</repository>
+			<repository name="hypercalc">
+				<description>
+					from a q table, create a view with calculated columns
+				</description>
+				<category>Examples</category>
+			</repository>
+		</github>
+	</contributor>
+
+
+	<contributor display-name="Stephen Peck" sort-name="PeckStephen" personal-name="Stephen" family-name="Peck">
+		<email>srpeck@gmail.com</email>
+		<github user="srpeck">
+			<repository name="kwsrepl">
+				<description>kdb+/k/q live REPL over web sockets</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="kchess">
+				<description>
+					Chess-inspired MMO with tick-based, kill-the-king combat
+				</description>
+				<tag>game</tag>
+			</repository>
+			<repository name="kchat">
+				<description>
+					Persistent group chat in &lt;50 lines using kdb+/k/q web sockets and JS
+				</description>
+			</repository>
+			<repository name="cryptopals">
+				<description>
+					Matasano Crypto Challenges
+				</description>
+				<category>Examples</category>
+			</repository>
+			<repository name="3dsim">
+				<description>
+					3D world simulation using kdb+/k/q web socket server and three.js
+				</description>
+				<category>Applications</category>
+			</repository>
+			<repository name="kxl">
+				<description>
+					Experimental spreadsheet UI for kdb+/k4/q
+				</description>
+				<category>Examples</category>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Republic Wireless" sort-name="Republic Wireless" company-name="Republic Wireless">
+		<url>https://republicwireless.com/</url>
+		<country>USA</country>
+		<email>republic-devs@bandwidth.com</email>
+		<img>https://avatars1.githubusercontent.com/u/8717067</img>
+		<github user="republicwireless-open">
+			<repository name="gen_q">
+				
+				<description>
+					An Erlang port driver for bridging an Erlang app and a q process, 
+					implemented with asyncronous tasks to allow parallel execution
+				</description>
+				
+				
+				<os>Mac</os>
+				<os>CentOS</os>
+			<interface to="Erlang"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Sam Kennerly" sort-name="KennerlySam" personal-name="Sam" family-name="Kennerly">
+		<email>samkennerly@gmail.com</email>
+		<img>https://avatars3.githubusercontent.com/u/4165406</img>
+		<country>USA</country>
+		<bio>data scientist at Conductor, Inc., New York City</bio>
+		<url>https://sites.google.com/site/samkennerly/</url>
+		<github user="samkennerly">
+			<repository name="q-practice">
+				<description>Quick reference guide for some Q tasks</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Samuel Alexander" sort-name="AlexanderSamuel" personal-name="Samuel" family-name="Alexander">
+		<country>UK</country>
+		<img>https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeEAAAAJDUwNmEwNDkwLWIxNTAtNDk2YS1iMmJiLTdmNTMzNWUwYmQxNw.jpg</img>
+		<bio>scientist at Johnson Matthey</bio>
+		<url>https://www.linkedin.com/in/sam-alexander-19053350</url>
+		<email>rmhiale@ucl.ac.uk</email>
+		<github user="semitrivial">
+			<repository name="qdash">
+				<description>
+					a port of the JavaScript Iodash utilities to q/kdb+
+				</description>
+				
+			<category>Web</category></repository>
+			<repository name="paste.q">
+				<description>
+					script for allowing pasting of multi-line q commands into the q REPL
+				</description>
+				
+			<category>Development tools</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Scott Weinstein" sort-name="WeinsteinScott" personal-name="Scott" family-name="Weinstein">
+		<country>USA</country>
+		<bio>Dev team manager at Goldman Sachs, New York City</bio>
+		<email>scottwww@squidnet.com</email>
+		<url>https://www.linkedin.com/in/scottweinstein</url>
+		<img>https://avatars1.githubusercontent.com/u/263024</img>
+		<github user="ScottWeinstein">
+			<repository name="Linq2KdbQ">
+				<description>a LINQ to Kdb+ and q provider</description>
+				<interface to="Linq"/>
+			</repository>
+		</github>
+		<svn user="sweinstein"/>
+	</contributor>
+
+	<contributor display-name="Sharizal Shaari" sort-name="ShaariSharizal" personal-name="Sharizal" family-name="Shaari">
+		<country>Malaysia</country>
+		<email>shah.and.shah@gmail.com</email>
+		<img>https://avatars2.githubusercontent.com/u/9425771</img>
+		<github user="shahrzl">
+			<repository name="qAutomatedTrading">
+				<description>
+					Automated trading platform based on Machine Learning algorithm
+				</description>
+				
+			<category>Applications</category></repository>
+			<repository name="BinaryAndBarrierOptions">
+				<description>
+					pricing models for binary and barrier options
+				</description>
+				
+			<category>Examples</category></repository>
+			<repository name="kdbplus/impliedRiskNeutralDist-Viewer">
+				<description>
+					implied-risk neutral-distribution viewer
+				</description>
+				
+			<category>Applications</category></repository>
+			<repository name="kdbplus/PhysicalDist-Viewer">
+				<description>
+					estimation of physical distribution based on historical data using Gaussian Kernel
+				</description>
+				
+			<category>Applications</category></repository>
+			<repository name="kdbplus/BSModelViewer">
+				<description>
+					A graphical viewer for Black-Scholes model for European Call Option
+				</description>
+				
+			<category>Applications</category></repository>
+			<repository name="qPoliticalSentimentAnalysis">
+				<description>
+					Political Sentiment Analysis of Facebook Comments using Boosting Algorithm
+				</description>
+				
+			<category>Applications</category></repository>
+		</github>
+	</contributor>
+
+
+
+
+
+
+
+
+
+	<contributor display-name="Eugene Kononov" sort-name="KononovEugene" personal-name="Eugene" family-name="Kononov">
+		<country>USA</country>
+		<url>https://www.linkedin.com/in/eugenekononov</url>
+		<github user="komsit37">
+			<repository name="sublime-q">
+				
+				<description>Sublime syntax highlighter</description>
+				
+				
+			<editor-plugin for="Sublime"/></repository>
+			<repository name="qchart">
+				
+				<description>
+					plot data directly from kdb (using javascript). Works well with sublime-q. It transform your data into json and render it into html/javascript template. 
+				</description>
+				
+			<category>Utilities</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="menghou0924" sort-name="menghou0924">
+		<!-- 
+			Linked repository for HK Stock Exchange matching engine not listed.
+			User has a repository for 32-bit q: 
+			might have removed repository of code for which he held no rights
+		-->
+	</contributor>
+
+	<contributor display-name="Michael Wittig" sort-name="WittigMichael" personal-name="Michael" family-name="Wittig">
+		<country>Germany</country>
+		<url>https://michaelwittig.info/</url>
+		<img>https://avatars1.githubusercontent.com/u/950078</img>
+		<email>post@michaelwittig.info</email>
+		<github user="michaelwittig">
+			<repository name="java-q">
+				
+				<description>O-O style interface to q</description>
+				
+				
+			<interface to="Java"/></repository>
+			<repository name="node-q">
+				
+				<description>
+					Q interfacing with Node.js. Supports decompression. 
+					Can deserialize all q data types (including guid) to JavaScript. 
+					Can serialize all JavaScript data types to q.
+				</description>
+				
+				
+			<interface to="Node.js"/></repository>
+			<repository name="erlang-q">
+				
+				<description>Q interfacing with Erlang</description>
+				
+				
+			<interface to="Erlang"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Mike Muon" sort-name="MuonMike" personal-name="Mike" family-name="Muon">
+		<country>Canada</country>
+		<twitter>@mikemuon</twitter>
+		<img>https://pbs.twimg.com/profile_images/2832989668/4991e9ae63076e6d1c06922967709fd4_400x400.jpeg</img>
+		<github user="mikemuon">
+			<repository name="kdb">
+				
+				<description>solutions to miscellaneous analytical problems</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Mohammad Noor" sort-name="NoorMohammad" personal-name="Mohammad" family-name="Noor">
+		<country>UK</country>
+		<url>https://www.linkedin.com/in/mohammadnoor</url>
+		<bio>developer at Deutsche Bank, London</bio>
+		<github user="MdSalih">
+			<repository name="Kdb-stuff" featured="yes">
+				
+				<description>
+					ServerChecker: how to execute commands on a remote box via ssh from within a Kdb process + parse linux system info (cpuinfo/meminfo/df)
+				</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Morten Sorensen" sort-name="SorensenMorten" personal-name="Morten" family-name="Sorensen">
+		<country>China</country>
+		<url>https://www.linkedin.com/in/mortensoerens</url>
+		<bio>analyst at BoA Merrill Lynch, Hong Kong</bio>
+		<img>https://avatars3.githubusercontent.com/u/1040765</img>
+		<github user="mortensorensen">
+			<repository name="QInteractiveBrokers">
+				
+				<description>Q wrapper for the Interactive Brokers API</description>
+				
+				
+			<interface to="Interactive Brokers"/></repository>
+			<repository name="project-euler">
+				
+				<description>solutions to Project Euler problems</description>
+				
+			<category>Mathematics</category></repository>
+			<repository name="qfxcm">
+				
+				<description>wrapper for FXCM's ForexConnect</description>
+				
+				
+			<interface to="ForexConnect"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Sergey Vidyuk" sort-name="VidyukSergey" personal-name="Sergey" family-name="Vidyuk">
+		<country>UK</country>
+		<url>https://www.linkedin.com/in/svidyuk</url>
+		<bio>Core Team at Kx Systems</bio>
+		<img>https://avatars1.githubusercontent.com/u/14086</img>
+		<github user="sv">
+			<repository name="kdbgo">
+				
+				<description>kdb+ client driver for Go</description>
+				
+				
+			<interface to="Go"/></repository>
+
+		</github>
+	</contributor>
+    
+    <contributor display-name="Naoki Yatsu" sort-name="YatsuNaoki" personal-name="Naoki" family-name="Yatsu">
+		<email>naoki1017@gmail.com</email>
+		<url>https://www.linkedin.com/in/naoki-yatsu-7ab52798</url>
+		<country>Japan</country>
+		<bio>developer at Mizuho Securities Co., Ltd, Tokyo</bio>
+		<github user="Naoki-Yatsu">
+			<repository name="TSE-FLEX-Converter">
+				
+				<description>
+					 converts Tokyo Stock Exchnage FLEX Historical message data to kdb+ or csv file
+				</description>
+				
+				
+			<interface to="TSE-FLEX"/></repository>
+			<repository name="kdb-jfx-viewer">
+				
+				<description>
+					(Making) kdb realtime viewer by JavaFX
+				</description>
+				
+				
+			<category>Utilities</category><tag>GUI</tag></repository>
+			<repository name="FX-AlgorithmTrading">
+				
+				<description>FX algorithm trading system</description>
+				
+			<category>Applications</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Nick Psaris" sort-name="PsarisNick" personal-name="Nick" family-name="Psaris">
+		<country>China</country>
+		<url>https://www.linkedin.com/in/nickpsaris</url>
+		<img>http://tepper.cmu.edu/-/media/images/tepper/extranet/prospective%20students/mscf/alumni%20perspectives/nick-316x239.ashx</img>
+		<bio>director at BoA Merrill Lynch, Hong Kong</bio>
+		<url>http://www.vector-sigma.com/</url>
+		<twitter>@nickpsaris</twitter>
+		<email>nick.psaris@gmail.com</email>
+		<github user="psaris">
+			<repository name="qtips">
+				
+				<description>
+					Source files for "Q Tips: Fast, Scalable and Maintainable Kdb+" 
+					<url>http://q-tips.net</url>
+				</description>
+				
+			<category>Examples</category></repository>
+			<repository name="q-mode">
+				
+				<description>
+					Emacs mode for editing q scripts and communicating with inferior q/qcon buffers
+				</description>
+				
+				
+			<editor-plugin for="Emacs"/></repository>
+			<repository name="funq">
+				
+				<description>
+					Functional Introduction to Machine Learning in Q
+				</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Nickolas Bug" sort-name="BugNickolas" personal-name="Nickolas" family-name="Bug">
+		<email>nickolasbug@gmail.com</email>
+		<country>Ukraine</country>
+		<bio>PHP developer in Chernihiv, Ukraine</bio>
+		<github user="nickolasbug">
+			<repository name="qnn">
+				
+				<description>Simple neural network</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Steve Wirts" sort-name="WirtsSteve" personal-name="Steve" family-name="Wirts">
+		<country>USA</country>
+		<email>stevewirts@gmail.com</email>
+		<img>https://avatars0.githubusercontent.com/u/3052199</img>
+		<url>https://www.linkedin.com/in/steve-wirts-98238988</url>
+		<bio>software engineer at OpenFin</bio>
+		<github user="stevewirts">
+			<repository name="kdb-vnc">
+				
+				<description>implementation of simple vnc server</description>
+				
+				
+			<category>Applications</category><tag>VNC</tag></repository>
+		</github>
+		<!-- replaces contributor OpenFin, which does not seem to have a "q subsesction" on GitHub -->
+	</contributor>
+
+	<contributor display-name="patmok" sort-name="patmok">
+		<github user="patmok">
+			<repository name="unparse">
+				
+				<description>unparse parse tree for kdb+/q</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="qvim">
+				
+				<description>
+					vim syntax highlighting for kdb+/q 
+					(slightly modified versions of Simon Garland's)
+				</description>
+				
+				
+			<editor-plugin for="vim"/></repository>
+			<repository name="qcon2">
+				
+				<description>console application to query kdb+</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="qprofiler">
+				
+				<description>simple profiler for kdb+/q</description>
+				
+			<category>Development tools</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Matthew Doherty" sort-name="DohertyMatthew" personal-name="Matthew" family-name="Doherty">
+		<country>Ireland</country>
+		<bio>Analytics Engines, Belfast</bio>
+		<url>https://www.linkedin.com/in/matthewddoherty</url>
+		<img>https://media.licdn.com/media/p/3/005/08a/0f2/2267d69.jpg</img>
+		<github user="picoDoc">
+			<repository name="betfair-data-capture">
+				<description>
+					Data capture and analysis system built on TorQ 
+					for sports exchange data from betfair.com
+				</description>
+				<category>Applications</category>
+			</repository>
+<!--	suppressed at author's request: "a bunch of old analysis code"
+ 			<repository name="betfair-historicalDB">
+				<description>
+					kdb+ code to parse betfair historical data, 
+					and some supporting databases
+				</description>
+				<interface to="Betfair"/>
+			</repository>
+ -->
+ 		</github>
+	</contributor>
+
+	<contributor display-name="QServ" sort-name="QServ">
+		<github user="QServ">
+			<repository name="QServ">
+				
+				<description>a Q/KDB+ service framework</description>
+				
+			<category>Frameworks</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Alex B" sort-name="BAlex" personal-name="Alex" family-name="B">
+		<country>Canada</country>
+		<bio>Toronto</bio>
+		<github user="quantbin">
+			<repository name="kdb">
+				
+				<description>kdb flex integration</description>
+				
+				
+			<interface to="Adobe Flex"/></repository>
+		</github>
+	</contributor>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<contributor display-name="Khoa Le" sort-name="LeKhoa" personal-name="Khoa" family-name="Le">
+		<email>ltkhoa2711@gmail.com</email>
+		<url>http://tkhoa2711.github.io</url>
+		<url>https://www.linkedin.com/in/letankhoa</url>
+		<country>Australia</country>
+		<bio>Software Engineer, Melbourne</bio>
+		<img>https://media.licdn.com/media/p/5/005/01f/27c/2d866c0.jpg</img>
+		<twitter>@tkhoa2711</twitter>
+		<email>tkhoa2711@yahoo.com.vn</email>
+		<github user="tkhoa2711">
+			<repository name="kdb-scripts">
+				
+				<description>utilities</description>
+				
+			<category>Utilities</category></repository>
+		</github>
+	</contributor>
+
+	<contributor personal-name="Kristóf" family-name="Katus" display-name="Kristóf Katus" sort-name="KatusKristof">
+		<url>https://www.facebook.com/kristof.katus</url>
+		<country>Hungary</country>
+		<bio>Budapest</bio>
+		<github user="katusk">
+			<repository name="vim-qkdb-syntax">
+				
+				<description>
+					Vim Syntax Highlighting and Indenting Support for k and q
+					variant of Simon Garland’s original
+				</description>
+				
+				
+			<editor-plugin for="vim"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="jmiao3" sort-name="jmiao3">
+		<github user="jmiao3">
+			<repository name="secret-dubstep">
+				
+				<description>
+					time series and statistics
+				</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Jason Nordwick" sort-name="NordwickJason" personal-name="Jason" family-name="Nordwick">
+		<email>jnordwick@gmail.com</email>
+		<twitter>@jnordwick</twitter>
+		<bio>Director of Software Development at Ogg Trading, LLC, Jersey City, New Jersey</bio>
+		<country>USA</country>
+		<url>https://www.linkedin.com/in/jnordwick</url>
+		<img>https://media.licdn.com/media/AAEAAQAAAAAAAAQkAAAAJDdhYTdlMzY2LTZlMWQtNGVlMy1iNTI0LWE0MjM4ZDQ1M2ExYg.jpg</img>
+		<github user="jnordwick">
+			<repository name="rik">
+				
+				<description>Rust interface</description>
+				
+				
+			<interface to="Rust"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Jaskirat Rajasansir" sort-name="RajasansirJaskirat" personal-name="Jaskirat" family-name="Rajasansir">
+		<img>https://media.licdn.com/media/p/2/005/07c/2a1/1dc9b49.jpg</img>
+		<bio>CTO at BuaBook, London</bio>
+		<email>jas@buabook.com</email>
+		<country>UK</country>
+		<url>https://www.linkedin.com/in/jaskirat-rajasansir-81b81026</url>
+		<github user="jasraj">
+			<repository name="q-doc">
+				
+				<description>
+					Javadoc inspired documentation generator for kdb+
+				</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="q-unit">
+				
+				<description>
+					unit testing framework
+				</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="q-build">
+				
+				<description>
+					 scripts to allow the standard kdb+ binary
+					 to be built into RPM and DEB packages
+				</description>
+				
+				<os>Linux</os>
+			<category>Development tools</category></repository>
+			<repository name="q-pygments">
+				
+				<description>
+					Pygments syntax highlighter extension for q
+				</description>
+				<editor-plugin for="Pygments"/>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="James Neill" sort-name="NeillJames" personal-name="James" famiy-name="Neill">
+		<email>j.neill.inbox@gmail.com</email>
+		<country>USA</country>
+		<bio>First Derivatives, NYC</bio>
+		<url>https://www.youtube.com/watch?v=lqvactClDNQ</url>
+		<url>http://jpneill.github.io</url>
+		<github user="jpneill">
+			<repository name="qca">
+				
+				<description>
+					simple cellular automata
+				</description>
+				
+			<category>Examples</category></repository>
+			<repository name="qinv">
+				
+				<description>
+					Matrix inversion using lapack instead of the native inv function
+				</description>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Jakub Kozlowski" sort-name="KozlowskiJakub" personal-name="Jakub" family-name="Kozlowski">
+		<email>mail@jakub-kozlowski.com</email>
+		<url>http://jakub-kozlowski.com</url>
+		<img>https://media.licdn.com/media/p/3/005/08f/07b/30605b7.jpg</img>
+		<url>https://www.linkedin.com/in/jakubkozlowski</url>
+		<country>UK</country>
+		<bio>Software Engineer at Palantir Technologies, London</bio>
+		<github user="jkozlowski">
+			<repository name="kdb-haskell">
+				
+				<description>
+					client library in haskell
+				</description>
+				
+				
+			<interface to="Haskell"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Gilles " sort-name="Gilles" personal-name="Gilles">
+		<github user="indiscible">
+			<repository name="qmandel">
+				
+				<description>
+					Mandelbrot
+				</description>
+				
+			<category>Examples</category></repository>
+			<repository name="emacs">
+				
+				<description>emacs configurations</description>
+				
+				
+			<editor-plugin for="Emacs"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Geo Carncross" sort-name="CarncrossGeo" personal-name="Geo" family-name="Carncross">
+		<url>https://www.linkedin.com/in/geo-carncross-7bbb0a3</url>
+		<img>https://media.licdn.com/media/AAEAAQAAAAAAAAQeAAAAJDVlOTI4NTMyLWFkZmYtNDQ0Ny1iY2YzLTEzOGQ0M2M3YzUzMQ.jpg</img>
+		<country>UK</country>
+		<url>http://geocar.sdf1.org</url>
+		<github user="geocar">
+			<repository name="con">
+				
+				<description>qcon replacement</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="dash">
+				
+				<description>
+					really fast webserver for kdb (&gt;100kq/sec) and
+					dashboard-making bits
+				</description>
+				
+			<category>Web</category></repository>
+			<repository name="qsalt">
+				
+				<description>
+					NaCL bindings
+				</description>
+				
+				
+				<os>Linux</os>
+			<interface to="NaCL"/></repository>
+			<repository name="kq-mode">
+				
+				<description>
+					k/q mode for Emacs
+				</description>
+				
+				
+			<editor-plugin for="Emacs"/></repository>
+			<repository name="qnode">
+				
+				<description>client for NodeJS</description>
+				
+				
+			<interface to="Node.js"/></repository>
+			<repository name="qlua">
+				
+				<description>
+					client for LUA
+					You can use this to link with
+					nginx+lua/openresty/whatever to get a Q-powered web
+					service that can do more than a few thousand
+					connections per second.
+				</description>
+				
+				
+				<os>Mac</os>
+				<os>Linux</os>
+			<interface to="Lua"/></repository>
+			<repository name="qphp">
+				
+				<description>client for PHP</description>
+				
+				
+			<interface to="PHP"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Gary Artinian" sort-name="ArtinianGary" personal-name="Gary" family-name="Artinian">
+		<url>https://www.linkedin.com/in/gary-artinian-3320542</url>
+		<url>http://garyartinian.wordpress.com</url>
+		<email>gary.artinian@gmail.com</email>
+		<github user="gartinian">
+			<repository name="kdbTwitter">
+				
+				<description>
+					interface to Twitter feed
+				</description>
+				
+				
+			<interface to="Twitter"/></repository>
+			<repository name="qmaths">
+				
+				<description>math and statistics library</description>
+				
+			<category>Mathematics</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="gargraman" sort-name="gargraman">
+		<github user="gargraman">
+			<repository name="heroku-buildpack-kdb">
+				
+				<description>
+					interface to the Heroku cloud platform
+				</description>
+				
+				
+			<interface to="Heroku"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Freddie Wu" sort-name="WuFreddie" personal-name="Freddie" family-name="Wu">
+		<email>flying@flying-w.net</email>
+		<country>Singapore</country>
+		<url>http://www.flying-w.net/#!/log</url>
+		<github user="FlyingOE">
+			<repository name="q-wind">
+				
+				<description>
+					interface library for Wind APIs
+				</description>
+				
+				
+			<interface to="Wind"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Frédéric Délèze" sort-name="DelezeFrederic" personal-name="Frédéric" family-name="Délèze">
+		<url>https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-d%C3%A9l%C3%A8ze-9324652</url>
+		<country>UK</country>
+		<bio>Consultant at Numerix, London</bio>
+		<img>https://media.licdn.com/media/p/2/005/097/32a/24afb3c.jpg</img>
+		<github user="fdeleze">
+			<repository name="tickYahoo">
+				
+				<description>
+					jobs to download tick data from yahoo and save in
+					kdb+ database
+				</description>
+				
+				<os>Mac</os>
+				<os>Linux</os>
+			<category>Development tools</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Felix Lungu" sort-name="LunguFelix" personal-name="Felix" family-name="Lungu">
+		<bio>SW Engineer la Nexfin</bio>
+		<url>https://www.linkedin.com/in/felix-lungu-00555879</url>
+		<country>Romania</country>
+		<github user="felixlungu">
+			<repository name="c">
+				
+				<description>C scripting in kdb+</description>
+				
+				
+			<interface to="C"/></repository>
+			<repository name="qexpat">
+				
+				<description>
+					interface to Expat XML parser
+				</description>
+				
+				
+				<os>Mac</os>
+			<interface to="Expat"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="fadefy" sort-name="fadefy">
+		<github user="fadefy">
+			<repository name="kdblib">
+				
+				<description>q scripts</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Etay Schnapp" sort-name="SchnappEtay" personal-name="Etay" family-name="Schnapp">
+		<url>https://www.linkedin.com/in/etay-schnapp-9b57585</url>
+		<img>https://media.licdn.com/media/p/2/000/004/04f/26c7d0b.jpg</img>
+		<country>USA</country>
+		<bio>Director at UBS Investment Bank, NYC</bio>
+		<github user="eschnapp">
+			<repository name="q">
+				
+				<description>
+					qPy with support for q v3.1
+				</description>
+				<interface to="Python"/>
+			</repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Enlightenment Research" sort-name="Enlightenment Research" company-name="Enlightenment Research">
+		<country>USA</country>
+		<bio>NYC</bio>
+		<github user="enlnt">
+			<repository name="pyq">
+				
+				<url>https://pyq.enlnt.com</url>
+				<description>
+					PyQ provides seamless integration of Python and Q
+					code. It brings Python and Q interpretors in the
+					same process and allows code written in either of
+					the languages to operate on the same data. In PyQ,
+					Python and Q objects live in the same memory space
+					and share the same data.
+				</description>
+				
+				
+			<interface to="Python"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Dmitry Marienko" sort-name="MarienkoDmitry" personal-name="Dmitry" family-name="Marienko">
+		<country>Ukraine</country>
+		<bio>Quantitative Developer at Black Knight Organization</bio>
+		<img>https://media.licdn.com/mpr/mpr/p/2/000/066/077/3ec50f3.jpg</img>
+		<url>https://www.linkedin.com/in/marienkodmitry</url>
+		<github user="dmarienko">
+			<repository name="kdbml">
+				
+				<description>
+					Native connector between KDB+ and Matlab. This
+					library provides access to KDB+/Q database from
+					Matlab. Existing Matlab kx connector is terrifically
+					slow and it's very hard to load big datasets from
+					KDB+ to Matlab. Also existing kx Matlab connector
+					doesn't support some KDB constructions like
+					dictionaries and list of lists etc. This library is
+					written in C and compiled to Matlab MEX file
+					providing very fast data transmition speed.
+				</description>
+				
+				
+			<interface to="Matlab"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="DEVnet" sort-name="DEVnet" company-name="DEVnet">
+		<country>Germany</country>
+		<email>kdb@devnet.de</email>
+		<url>http://www.devnet.de</url>
+		<note>contact was Jens Rick</note>
+		<github user="exxeleron">
+			<repository name="enterprise-components">
+				
+				<description>
+					a set of open-source building blocks on top of kdb+
+					allowing you to set up a system for data warehousing and
+					analytics in just a few simple steps
+				</description>
+				
+			<category>Frameworks</category></repository>
+			<repository name="yak">
+				
+				<description>
+					an application used to manage Enterprise Components
+					deployed on a single host
+				</description>
+			</repository>
+			<repository name="qErlang">
+				
+				<description>
+					interprocess communication between Java and Erlang
+				</description>
+				
+				
+			<interface to="Erlang"/></repository>
+			<repository name="qJava">
+				
+				<description>
+					interprocess communication between Java and kdb+
+				</description>
+				
+				
+			<interface to="Java"/></repository>
+			<repository name="qSharp">
+				
+				<description>
+					interprocess communication between C# and kdb+
+				</description>
+				
+				
+			<interface to="C#"/></repository>
+			<repository name="qPython">
+				
+				<description>
+					interprocess communication between Python and kdb+
+				</description>
+				
+				
+			<interface to="Python"/></repository>
+			<repository name="qXL">
+				
+				<description>
+					q to Excel integration
+				</description>
+				
+				
+			<interface to="Excel"/></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="dbyu" sort-name="dbyu">
+		<github user="dbyu">
+			<repository name="q-math">
+				
+				<description>
+					library of math functions for q/kdb+
+				</description>
+				
+			<category>Mathematics</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="chuchunf" sort-name="chuchunf">
+		<github user="chuchunf">
+			<repository name="qex">
+				
+				<url>https://github.com/chuchunf/qex</url>
+				<description>
+					A equity exchange implemented in Q running on KDB+
+				</description>
+				
+			<category>Examples</category></repository>
+		</github>
+	</contributor>
+
+	<contributor display-name="Tom Martin" sort-name="MartinTom" personal-name="Tom" family-name="Martin">
+		<email>tmartin@firstderivatives.com</email>
+		<url>https://www.linkedin.com/in/tom-martin-9ba96438</url>
+		<img>https://media.licdn.com/media/p/2/000/0e5/034/38701e1.jpg</img>
+		<bio>Senior kdb+ Consultant at First Derivatives, London</bio>
+		<country>UK</country>
+		<github user="t-martin">
+			<repository name="qdoc">
+				
+				<url>https://github.com/t-martin/qdoc</url>
+				<description>
+					HTML documentation generator for q files, based on javadoc
+				</description>
+			</repository>
+			<repository name="qremote">
+				<description>
+					Connect to remote kdb+ processes but
+					behave as if you are using a local terminal
+				</description>
+			</repository>
+			<repository name="qmulti">
+				
+				<url>https://github.com/t-martin/qmulti</url>
+				<description>
+					a simple q script to allow multi-line code to be entered
+					into a standard kdb+ console
+				</description>
+			</repository>
+			<repository name="qmail">
+				<description>
+					Send HTML emails from
+					inside kdb+ processes.
+					Uses the Linux <code>sendmail</code> utility
+				</description>
+				<os>Linux</os>
+			</repository>
+		</github>
+	</contributor>
+
+    <contributor display-name="Leslie Goldsmith" sort-name="GoldsmithLeslie" personal-name="Leslie" family-name="Goldsmith">
+    	<country>Canada</country>
+    	<url>https://www.linkedin.com/in/lhg00</url>
+    	<img>https://media.licdn.com/media/p/1/000/00c/2eb/3b28269.jpg</img>
+    	<bio>Director at Affinity Systems, Toronto</bio>
+    	<url>http://www.affsys.com/</url>
+        <github user="AffinitySystems">
+            <repository name="qprof">
+                
+                <url>https://github.com/AffinitySystems/qprof</url>
+                <description>
+                	q code profiler
+
+					Contains routines to profile statement execution counts and CPU
+					consumption.  Functions to be profiled can be specified
+					explicitly or by referencing a parent namespace (in which case
+					all functions in all namespaces below it are examined).
+                </description>
+                
+                
+            <tag>development</tag><tag>performance</tag></repository>
+            <repository name="ws">
+                
+                <url>https://github.com/AffinitySystems/ws</url>
+                <description>
+                	workspace utilities for developers
+
+					Contains routines for searching functions within a workspace
+					for one or more substrings.  Functions can be specified
+					explicitly or by referencing a parent namespace (in which
+					case all functions in all namespaces below it are examined).
+                </description>
+                
+            <category>Development tools</category></repository>
+        </github>
+    </contributor>
+
+    <contributor display-name="Alex Whitney" sort-name="WhitneyAlex" personal-name="Alex" family-name="Whitney">
+    	<email>alex.whitney@cantab.net</email>
+    	<country>UK</country>
+    	<bio>freelance developer, London</bio>
+    	<url>https://www.linkedin.com/in/alex-whitney-20a4419b</url>
+        <github user="adwhit">
+            <repository name="krust">
+                <url>https://github.com/adwhit/krust</url>
+                <description>
+                    KDB-Rust embedding and IPC
+                </description>
+                <os>Linux</os>
+	            <interface to="Rust"/>
+	        </repository>
+        </github>
+    </contributor>
+
+    <contributor display-name="aboudarov" sort-name="aboudarov">
+        <svn user="aboudarov">
+            <repository name="kui">
+                
+                <notes>
+                    SWC file and a TXT of q idioms.
+                </notes>
+                
+            <category>Utilities</category></repository>
+            <repository name="taq">
+                
+                <notes>charting tools? Java, MXML</notes>
+                
+            <category>Utilities</category></repository>
+        </svn>
+    </contributor>
+
+    <contributor display-name="Alan Cheung" sort-name="CheungAlan" personal-name="Alan" family-name="Cheung">
+        <svn user="acheung">
+            <repository name="2048">
+                
+                <notes>game?</notes>
+                
+            <category>Applications</category></repository>
+        </svn>
+    </contributor>
+
+    <contributor display-name="Aaron Davies" sort-name="DaviesAaron" personal-name="Aaron" family-name="Davies">
+    	<email>aaron.davies@bofasecurities.com</email>
+    	<url>https://www.linkedin.com/in/aaron-davies-7278241</url>
+    	<country>USA</country>
+    	<bio>Q/KDB+ Programmer, NYC</bio>
+    	<img>https://media.licdn.com/mpr/mpr/p/8/000/22a/090/1241790.jpg</img>
+        <github user="adavies42">
+            <repository name="qist">
+                <description>Utilities and example code from my personal library</description>
+                
+            <tag>example</tag></repository>
+        </github>
+        <svn user="adavies"/>
+    </contributor>
+
+    <contributor display-name="Andrej Grinev" sort-name="GrinevAndrej" personal-name="Andrej" family-name="Grinev">
+    	<github user="AndrejGrinev">
+    		<repository name="Q-KDB-plus-">
+    			
+    			<url>https://github.com/AndrejGrinev/Q-KDB-plus-</url>
+    			<description>
+    				q-script - working with betfair csv
+    			</description>
+    		</repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="Andrey Kozyrev" sort-name="KozyrevAndrey" personal-name="Andrey" family-name="Kozyrev">
+    	<url>https://www.linkedin.com/in/andreykozyrev</url>
+		<email>quintanar401@gmail.com</email>
+		<github user="quintanar401">
+			<repository name="kdb-wc" featured="yes">
+				
+				<description>kdb+ web components</description>
+				
+			<category>Web</category></repository>
+			<repository name="dbd">
+				
+				<description>a debugger for KDB+/Q programs/functions</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="autocomplete-kdb-q">
+				
+				<description>
+					Autocomplete, QDoc and linter (error checking) provider for KDB+ Q
+				</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="connect-kdb-q">
+				
+				<description>
+					execute arbitrary queries on Q servers and see their results
+				</description>
+				
+			<category>Development tools</category></repository>
+			<repository name="language-kdb-q">
+				
+				<description>
+					support for Atom
+				</description>
+				
+				
+			<editor-plugin for="Atom"/></repository>
+		</github>
+        <svn user="akozyrev">
+            <repository name="">
+                <description>Simple Scheme interpreter</description>
+                
+            <category>Applications</category></repository>
+        </svn>
+    </contributor>
+
+
+<!--     <contributor display-name="AquaQ Analytics" sort-name="AquaQ Analytics" company-name="AquaQ Analytics">
+    	<country>UK</country>
+        <email>info@aquaq.co.uk</email>
+        <url>http://www.aquaq.co.uk</url>
+        <github user="AquaQAnalytics">
+            <repository name="TorQ-Finance-Starter-Pack">
+                
+                <url>https://github.com/AquaQAnalytics/TorQ-Finance-Starter-Pack</url>
+                <description>
+                    Example data capture system, based on random financial data
+                </description>
+                
+            <category>Examples</category></repository>
+            <repository name="TorQ">
+            	
+            	<url>https://github.com/AquaQAnalytics/TorQ</url>
+            	<description>
+					The framework forms the basis of a production kdb+
+					system by implementing some core functionality and
+					utilities on top of kdb+, allowing developers to
+					concentrate on the application business logic. It
+					incorporates as many best practices as possible,
+					with particular focus on performance, process
+					management, diagnostic information, maintainability
+					and extensibility. Wherever possible, we have tried
+					to avoid re-inventing the wheel and instead have
+					used contributed code from code.kx.com (either
+					directly or modified). This framework will be
+					suitable for those looking to create a new kdb+
+					system from scratch or those looking to add
+					additional functionality to their existing kdb+
+					systems.
+            	</description>
+            	
+            <category>Frameworks</category></repository>
+            <repository name="kdb-fix-adaptor">
+            	
+            	<url>https://github.com/AquaQAnalytics/kdb-fix-adaptor</url>
+            	<description>
+            		FIX is one of the most common protocols used within
+            		the finance industry. This repository provides a
+            		shared library implementation of a FIX engine.
+            	</description>
+            	
+            	
+            <interface to="FIX"/></repository>
+            <repository name="kdb-feedhandler-tutorial">
+            	
+            	<url>https://github.com/AquaQAnalytics/kdb-feedhandler-tutorial</url>
+            	<description>
+            		demonstrates how to build a feedhandler that interfaces with kdb+.
+            	</description>
+            	
+            <category>Examples</category></repository>
+            <repository name="kdb-c-interface">
+            	
+            	<url>https://github.com/AquaQAnalytics/kdb-c-interface</url>
+            	<description>
+            		demonstrates how to marshal data between kdb+ and C
+            		using the Kx-provided interface
+            	</description>
+            	
+            <category>Examples</category></repository>
+            <repository name="mongoq">
+            	
+            	<url>https://github.com/AquaQAnalytics/mongoq</url>
+            	<description>
+            		A C shared lib along with associated q functions to
+            		allow push/pull access to MongoDB from within kdb+
+            	</description>
+            	
+            	
+            <interface to="MongoDB"/></repository>
+        </github>
+        <svn user="aquaqanalytics">
+            <repository name="InterfacingKDBtoC"/>
+            <repository name="KdbConnections"/>
+            <repository name="KDBTCP"/>
+            <repository name="Qcrypt"/>
+            <repository name="Qgame"/>
+            <repository name="Training"/>
+            <repository name="Utilities"/>
+        </svn>
+    </contributor>
+ -->
+    <contributor display-name="ashih" sort-name="ashih"/>
+
+    <contributor display-name="avrabacz" sort-name="avrabacz"/>
+
+    <contributor display-name="Andrey Zholos" sort-name="ZholosAndrey" personal-name="Andrey" family-name="Zholos">
+    	<img>https://avatars2.githubusercontent.com/u/4311049</img>
+    	<country>Ukraine</country>
+    	<url>https://www.linkedin.com/in/andreyzholos</url>
+    	<bio>kdb+ developer</bio>
+        <url>http://althenia.net/qml</url>
+        <email>aaz@q-fu.com</email>
+        <github user="zholos">
+            <repository name="qml">
+            	
+            	<url>https://github.com/zholos/qml</url>
+            	<description>
+				a library for statistics, linear algebra, and
+				optimization in kdb+. It provides an interface
+				between the q programming language and numerical
+				libraries such as LAPACK.
+            	</description>
+            	
+            <category>Mathematics</category></repository>
+            <repository name="">qml-legacy</repository>
+        </github>
+        <svn user="azholos">
+            <repository name="qq"/>
+            <repository name="conmin.q"/>
+            <repository name="linreg.q"/>
+            <repository name="oop.q"/>
+            <repository name="polyglot.q"/>
+            <repository name="solve.q"/>
+            <repository name="tdiff.q"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="Anton Dovzhenko" sort-name="DovzhenkoAnton" personal-name="Anton" family-name="Dovzhenko">
+    	<country>Singapore</country>
+    	<bio>Software Engineer at Standard Chartered Bank, Singapore</bio>
+    	<url>https://www.linkedin.com/in/andovzhenko</url>
+    	<img>https://media.licdn.com/media/p/1/000/0e6/2ab/1dca49d.jpg</img>
+
+    	<github user="anton-dovzhenko">
+    		<repository name="java-kdb-plus-integration">
+    			
+    			<url>https://github.com/anton-dovzhenko/java-kdbplus-integration</url>
+    			<description>
+    				Java and KDB+ integration example
+    			</description>
+    			
+    			
+    		<interface to="Java"/></repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="Andrew King" sort-name="KingAndrew" personal-name="Andrew" family-name="King">
+    	<email>kingan@tcd.ie</email>
+    	<url>https://www.linkedin.com/in/andrew-king-4baa3455</url>
+    	<img>https://media.licdn.com/media/p/4/005/082/048/32eadb8.jpg</img>
+    	<bio>Data Engineer, London</bio>
+    	<country>UK</country>
+    	<github user="kingan">
+    		<repository name="mongodb_kdb_python_connection">
+    			<description>
+    				transfer data from a NoSQL database, MongoDB to a relational database, kdb
+    			</description>
+    			<interface to="MongoDB"/>
+    			<tag>Python</tag>
+    		</repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="Benjamin Conlan" sort-name="ConlanBenjamin" personal-name="Benjamin" family-name="Conlan">
+    	<img>https://avatars3.githubusercontent.com/u/394160</img>
+    	<github user="bjconlan">
+    		<repository name="kdb-protocol">
+    			
+    			<url>https://github.com/bjconlan/kdb-protocol</url>
+    			<description>
+    				Packaged dependencies of the kdb+ ipc protocol classes
+    				as provided at http://kx.com/q/c/
+    			</description>
+    			
+    			
+    		<category>Utilities</category><tag>C</tag></repository>
+    		<repository name="kdb-jdbc">
+    			
+    			<url>https://github.com/bjconlan/kdb-jdbc</url>
+    			<description>
+    				Packaged dependencies of the kdb+
+    				JDBC driver &amp; protocol/connection classes
+    				as provided at http://kx.com/q/c/
+    			</description>
+    			
+    			
+    		<category>Utilities</category><tag>JDBC</tag></repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="bzheng" sort-name="bzheng"/>
+
+    <contributor display-name="Pawan Singh" sort-name="SinghPawan" personal-name="Pawan" family-name="Singh">
+    	<url>https://www.linkedin.com/in/psingh05</url>
+    	<country>USA</country>
+    	<bio>developer at SquarePoint Ops LLC</bio>
+    	<img>https://media.licdn.com/media/p/4/005/09c/00f/1a227e5.jpg</img>
+    	<github user="bitmx">
+    		<repository name="btceQ">
+    			
+    			<url>https://github.com/bitmx</url>
+    			<description>Bitcoin trading API</description>
+    			
+    			
+    		<interface to="Bitcoin"/></repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="Brandon Yang" sort-name="YangBrandon" personal-name="Brandon" family-name="Yang">
+    	<github user="vschon">
+    		<repository name="VD_KDB">
+    			
+    			<url>https://github.com/vschon/VD_KDB</url>
+    			<description>Forex tick database in KDB</description>
+    			
+    			
+    		<category>Applications</category><tag>FX</tag></repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="brogar" sort-name="brogar">
+    	<github user="brogar">
+    		<repository name="nls">
+    			
+    			<url>https://github.com/brogar/nls</url>
+    			<description>Fortran/kdb+ non-linear least-squares</description>
+    			<interface to="Fortran"/>
+    		</repository>
+    		<repository name="pykdb">
+    			
+    			<url>https://github.com/brogar/pykdb</url>
+    			<description>Python interface to KDB+</description>
+    			
+    			
+    		<interface to="Python"/></repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="Isaac Carruthers" sort-name="CarruthersIsaac" personal-name="Isaac" family-name="Carruthers">
+    	<email>isaac.carruthers@gmail.com</email>
+    	<url>https://www.linkedin.com/in/isaac-carruthers-026794105</url>
+    	<country>USA</country>
+    	<bio>Quantitative Researcher at Quantitative Brokers, NYC</bio>
+    	<github user="carrutstick">
+    		<repository name="hasq">
+    			
+    			<url>https://github.com/carrutstick/hasq</url>
+    			<description>Haskell interoperability with KDB+</description>
+    			
+    			
+    		<interface to="Haskell"/></repository>
+    	</github>
+    </contributor>
+
+    <contributor display-name="Charles Skelton" sort-name="SkeltonCharles" personal-name="Charles" family-name="Skelton">
+    	<country>Switzerland</country>
+    	<email>c.skelton@skelton.de</email>
+    	<github user="CharlesSkelton/">
+    		<repository name="studio" featured="yes">
+    			<description>
+    				A rapid-development environment for kdb+
+    			</description>
+    			
+    		<category>Development tools</category></repository>
+    		<repository name="babel">
+    			
+    			<url>https://github.com/CharlesSkelton/babel</url>
+    			<description>
+    				Babel for kdb+ / Query any database from kdb+ via jdbc
+    			</description>
+    			
+    			
+    			
+    		<interface to="Babel"/><tag>JDBC</tag></repository>
+    		<repository name="excelrtd">
+    			
+    			<url>https://github.com/CharlesSkelton/excelrtd</url>
+    			<description>
+    				Excel RTD for kdb+ / subscribe to kdb+ from excel
+    			</description>
+    			
+    			
+    		<interface to="Excel"/></repository>
+    		<repository name="jshow">
+    			
+    			<url>https://github.com/CharlesSkelton/show</url>
+    			<description>
+    				JShow / display tables/graphs from within kdb+
+    			</description>
+    			
+    			
+    		<interface to="Java"/></repository>
+    	</github>
+        <svn user="cskelton">
+            <repository name="studio"/>
+            <repository name="babel"/>
+            <repository name="excelrtd"/>
+            <repository name="jshow"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="Chris Burke" sort-name="BurkeChris" personal-name="Chris" family-name="Burke"/>
+
+    <contributor display-name="cbutler" sort-name="cbutler"/>
+
+    <contributor display-name="disksort" sort-name="disksort"/>
+
+    <contributor display-name="Daniel Nugent" sort-name="NugentDaniel" personal-name="Daniel" family-name="Nugent">
+        <email>nugend@gmail.com</email>
+        <github user="nugend">
+            <repository name="qspec">
+            	
+            	<description>
+            		a testing framework 
+            		lightly inspired by Behaviour Driven
+            		Development and the rspec testing framework
+            		(<a href="http://rspec.info">rspec.info</a>).
+            	</description>
+            	
+            <category>Development tools</category></repository>
+            <repository name="qPython">
+            	
+            	<description>
+            		interprocess communication between Python and kdb+
+            		http://www.devnet.de
+            		forked from exxeleron/qPython
+            	</description>
+            	
+            	
+            <interface to="Python"/></repository>
+            <repository name="qutil">
+            	
+            	<description>
+            		provides several different common utility
+            		functionalities for use with Q programs.  These
+            		currently include: an option parsing facility as an
+            		alternative to .Q.opt; and a file loading facility
+            		based on a pathlist and supporting version numbers
+            	</description>
+            	
+            <category>Utilities</category></repository>
+            <repository name="krust">
+            	
+            	<description>kdb-Rust embedding and interprocess control</description>
+            	
+            	
+            <interface to="Rust"/></repository>
+            <repository name="q-mode"/>
+            <repository name="q">
+            	
+            	<description>
+            		a q connection library for Python 2.6 or lower
+            	</description>
+            	
+            	
+            <interface to="Python"/></repository>
+            <repository name="qjson">
+            	
+            	<description>JSON output</description>
+            	
+            <category>Utilities</category></repository>
+            <repository name="qmode">
+            	
+            	<description>
+            		Emacs package:
+            		kdbp-mode + q-minor-mode combined for easy installation via el-get
+            	</description>
+             	
+             	
+            <editor-plugin for="Emacs"/></repository>
+        </github>
+        <svn user="dnugent"><!--A README points to GitHub, with broken links--></svn>
+    </contributor>
+
+    <contributor display-name="Darren Armstrong" sort-name="ArmstrongDarren" personal-name="Darren" family-name="Armstrong">
+    	<url>https://www.linkedin.com/in/darren-armstrong-69090052</url>
+    	<country>UK</country>
+    	<bio>developer, UBS</bio>
+    	<github user="darrenarmstrong85">
+    		<repository name="kdb-ts">
+    			
+    			<description>
+    				Tickless event timer library
+    			</description>
+    		</repository>
+    		<category>Utilities</category>
+    	</github>
+    </contributor>
+
+    <contributor display-name="ebierly" sort-name="ebierly"/>
+
+    <contributor display-name="example_user" sort-name="example_user"/>
+
+    <contributor display-name="First Derivatives plc" sort-name="First Derivatives plc" company-name="First Derivatives plc">
+    	<country>UK</country>
+        <url>http://www.firstderivatives.com</url>
+        <email>kdb@firstderivatives.com</email>
+        <github user="FirstDerivativesplc">
+            <repository name="qForGodsEdition26">
+            	
+            	<description>
+					source code for C# application referred to in
+					Edition 26 of q for Gods lecture series
+            	</description>
+            </repository>
+        </github>
+        <svn user="fdsupport">
+            <repository name="database maintenance"/>
+            <repository name="FD_kdb+tick_manual_1.0.doc"/>
+            <repository name="FD_Kdb+_Ref_3.0.doc"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="fermin.xrnd" sort-name="fermin.xrnd"/>
+
+    <contributor display-name="gbaker" sort-name="gbaker"/>
+
+    <contributor display-name="gbrown" sort-name="gbrown"/>
+
+    <contributor display-name="jandrews" sort-name="jandrews"/>
+
+    <contributor display-name="Jay Han" sort-name="HanJay" personal-name="Jay" family-name="Han">
+        <email>jay.han@gmail.com</email>
+        <url>https://www.linkedin.com/in/jayhan</url>
+        <country>USA</country>
+        <bio>Software Engineer in Test/QA Engineer [Tech Lead] at Google, San Francisco Bay Area</bio>
+        <github user="jaeheum">
+        	<repository name="qac">
+        		<description>
+        			Provides shared memory atomic counter to multiple q processes on Linux. 
+        			These processes can be either parent/children or unrelated.
+        		</description>
+        		<category>Development tools</category>
+        		<os>Linux</os>
+        	</repository>
+        	<repository name="qsparkline">
+        		<description>
+        			Sparkline plots as UTF-8 character vectors
+        		</description>
+        		<category>Development tools</category>
+        		<os>Linux</os>
+        		<os>Mac</os>
+        	</repository>
+
+            <repository name="qzmq">
+            	
+            	<description>
+            		provides Q bindings for CZMQ, the high-level C
+            		binding for ØMQ + multithreaded progamming model
+            	</description>
+            	
+            	
+            <interface to="CZMQ"/></repository>
+            <repository name="qplplot">
+            	
+            	<description>
+            		Q bindings of PLplot graphical data plotting library
+            	</description>
+            	
+            	
+            	<os>Mac</os>
+            	<os>Linux</os>
+            	<os>Windows</os>
+            <interface to="PLplot"/></repository>
+        </github>
+        <svn user="jhan"/>
+    </contributor>
+
+    <contributor display-name="jloveless" sort-name="jloveless"/>
+
+    <contributor display-name="John Anthony Ludlow" sort-name="LudlowJohn Anthony" personal-name="John Anthony" family-name="Ludlow">
+    	<url>https://www.linkedin.com/in/john-ludlow-7b671a8a</url>
+    	<bio>kdb+ developer at UBS, London</bio>
+    	<country>UK</country>
+        <github user="johnanthonyludlow">
+            <repository name="kdb">
+                
+                <description>kdb+ tutorials and code examples</description>
+            </repository>
+        </github>
+        <svn user="jludlow">
+            <!--Looks like earlier versions of what is now on GitHub-->
+            <repository name="ctoq">
+                
+                <description>examples</description>
+            </repository>
+            <repository name="docs">
+                
+                <description>reports: how to call kdb+ from various languages</description>
+            </repository>
+        </svn>
+    </contributor>
+
+    <contributor display-name="jschmitz" sort-name="jschmitz"/>
+
+    <contributor display-name="klawler" sort-name="klawler"/>
+
+    <contributor display-name="korman" sort-name="korman"/>
+
+    <contributor display-name="Kim Tang" sort-name="TangKim" personal-name="Kim" family-name="Tang">
+        <!--
+            SVN and GitHub matched on basis of email handle
+            Projects share an interest in math don't match
+         -->
+        <email>kuentang@vodafone.de</email>
+        <url>https://www.linkedin.com/in/kim-kuen-tang-85957625</url>
+        <img>https://media.licdn.com/media/AAEAAQAAAAAAAAavAAAAJDUyNjg5ZDMwLWY0ZWItNDM0Ni04NjE5LTU3NjBjZmI2NDk3Mw.jpg</img>
+        <bio>developer at Morgan Stanley, Cologne</bio>
+        <country>Germany</country>
+        <github user="kimtang">
+        	<repository name="QStudio">
+        		
+        		<description>
+        			run StudioForKdb inside ST2
+        		</description>
+        		
+        		
+        	<editor-plugin for="Sublime"/></repository>
+            <repository name="sublime-q">
+                
+                <description>
+                	kdb+/q syntax highlighting for the Sublime editor
+                </description>
+                <os>Mac</os>
+                <os>Linux</os>
+                <os>Windows</os>
+                
+                
+            <editor-plugin for="Sublime"/></repository>
+            <repository name="btlib-tick">
+            	
+            	<description>Tick implemented using the BT Engine</description>
+            	
+            <category>Applications</category></repository>
+            <repository name="btlib-bt">
+            	
+            	<description>Behavior-Tag Engine</description>
+            	
+            	<os>Windows</os>
+            <category>Applications</category></repository>
+            <repository name="btlib-dotz">
+            	
+            	<description>
+            		Timer and Connection Engine based on the BT Engine
+            	</description>
+            	
+            <category>Applications</category></repository>
+            <repository name="lib-math">
+            	
+            	<description>math library</description>
+            	
+            <category>Mathematics</category></repository>
+            <repository name="bml">
+            	
+            	<description>
+            		interface to the Boost mathematical library
+            	</description>
+            	
+            	
+        	<interface to="Boost"/></repository>
+            <repository name="proto">
+            	
+            	<description>
+            		implementing edsl
+            	</description>
+            	
+            <category>Examples</category></repository>
+            <repository name="ql.q">
+                
+                <description>quantitative finance library</description>
+                
+            <category>Mathematics</category></repository>
+            <repository name="qml">
+                
+                <description>q math library</description>
+                
+            <category>Mathematics</category></repository>
+            <repository name="kdb-euler">
+                
+                <description>
+                	solutions to Euler’s problems
+                </description>
+                
+            <category>Mathematics</category></repository>
+            <repository name="Q">
+                
+                <description>language integration of q into Sublime Text 2</description>
+                
+                
+            <editor-plugin for="Sublime"/></repository>
+            <repository name="rinit">
+            	
+            	<description>
+            		helper functions to use R inside q
+            	</description>
+            	
+            	
+            <interface to="R"/></repository>
+            <repository name="c.fs">
+            	
+            	<description>interface from Fsharp</description>
+            	
+            	
+            <interface to="F#"/></repository>
+        </github>
+        <svn user="kuentang">
+            <repository name="c++"/>
+            <repository name="graphic"/>
+            <repository name="math"/>
+            <repository name="matlabdll"/>
+            <repository name="r"/>
+            <repository name="talk"/>
+            <repository name="zia"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="kxtech" sort-name="kxtech"/>
+
+    <contributor display-name="mrosenberg" sort-name="mrosenberg"/>
+
+    <contributor display-name="Nathan Perrem" sort-name="PerremNathan" personal-name="Nathan" family-name="Perrem">
+    	<url>https://www.linkedin.com/in/nathanperrem</url>
+    	<country>USA</country>
+    	<bio>developer at BGC Partners, New York City</bio>
+    	<img>https://media.licdn.com/media/AAEAAQAAAAAAAAV5AAAAJDU3OTRmZDlmLTU4ZmYtNDUxYS1hN2NlLTY0ODdkZjNiNGU3Mg.jpg</img>
+
+        <github user="nperrem">
+            <repository name="mserve">
+            	
+            	<description>
+            		Enhanced mserve load balanced solution
+            	</description>
+            	
+        	<category>Applications</category></repository>
+        </github>
+        <svn user="nperrem">
+            <repository name="mserve"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="pkbukowi" sort-name="pkbukowi"/>
+
+    <contributor display-name="psweeney" sort-name="psweeney"/>
+
+    <contributor display-name="ptryfon" sort-name="ptryfon"/>
+
+    <contributor display-name="quantumkdb" sort-name="quantumkdb"/>
+
+    <contributor display-name="repairceir" sort-name="repairceir"/>
+
+    <contributor display-name="rtripathi" sort-name="rtripathi"/>
+
+    <contributor display-name="Rory Winston" sort-name="WinstonRory" personal-name="Rory" family-name="Winston">
+    	<country>Singapore</country>
+    	<bio>director, eFX at Commerzbank AG</bio>
+    	<img>https://media.licdn.com/media/p/2/005/062/10c/2528ece.jpg</img>
+        <url>http://www.theresearchkitchen.com</url>
+        <url>http://www.linkedin.com/roryw</url>
+        <email>rory@theresearchkitchen.com</email>
+        <phone>+61 4 5777 6088</phone>
+        <github user="rwinston">
+            <repository name="kdb-rmathlib">
+            	
+            	<description>Interface between kdb+ and rmathlib</description>
+            	
+            	
+        	<interface to="R"/></repository>
+        </github>
+        <svn user="rwinston">
+            <repository name="rmath"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="sagrawal" sort-name="sagrawal"/>
+
+    <contributor display-name="serpent.speak" sort-name="serpent.speak"/>
+
+    <contributor display-name="Simon Garland" sort-name="GarlandSimon" personal-name="Simon" family-name="Garland">
+    	<country>Switzerland</country>
+    	<url>https://www.linkedin.com/in/simon-garland-35a2bba8</url>
+    	<img>http://insidebigdata.com/wp-content/uploads/2014/09/simon-garland-head.png</img>
+    	<bio>Chief Strategist, Kx</bio>
+        <email>simon@kx.com</email>
+        <github user="simongarland">
+        	<repository name="reservedwords">
+        		<description>something to do with q’s reserved words</description>
+        		<category>Development tools</category>
+        	</repository>
+        	<repository name="io">
+        		<description>benchmark for I/O speed</description>
+        		<category>Development tools</category>
+        	</repository>
+        	<repository name="help">
+        		<description>create a helpfile from a directory of TXTs</description>
+        		<category>Development tools</category>
+        	</repository>
+        	<repository name="tick">
+        		<description>
+        			use <em>instead</em> of an rdb to append data to disk partition during day 
+        			and use that to build historical partition at day end
+        		</description>
+        		<category>Development tools</category>
+        	</repository>
+        	<repository name="tickrecover">
+        		<description>recover from tickerplant crash</description>
+        		<category>Applications</category>
+        	</repository>
+        	<repository name="vim">
+        		<description>Vim Support for kdb+</description>
+        		<editor-plugin for="vim"/>
+        	</repository>
+        	<repository name="k4unit">
+        		<description>
+        			k4 unit testing, loads tests from csv's, runs+logs to database
+        		</description>
+        		<category>Development tools</category>
+        	</repository>
+        	<repository name="dotz">
+        		<description>
+        			control external (.z.p*) access to  a kdb+ session, log access errors to file
+        		</description>
+        		<category>Development tools</category>
+        	</repository>
+        	<repository name="diskdelete">
+        		<description>
+        			Delete data from disk directly, loading one col at a time rather than whole table. 
+        			Preserves attributes.
+					Goes to ridiculous lengths to avoid writing.
+				</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="compress">
+				<description>file compression</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="csvguess">
+				<description>
+					guess a reasonable loadstring for a csv file (kdb+ 2.4 or greater)
+				</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="debug4">
+				<description>debugging tools</description>
+				<category>Development tools</category>
+			</repository>
+			<repository name="Syntaxhighlighter-for-q">
+				<description>
+					Adds support for the q language to the SyntaxHighlighter Evolved plugin
+				</description>
+				<editor-plugin for="Evolved"/>"
+			</repository>
+        </github>
+        <svn user="simon">
+            <repository name="compress"/>
+            <repository name="csvguess"/>
+            <repository name="debug4"/>
+            <repository name="diskdelete"/>
+            <repository name="doth"/>
+            <repository name="dotz"/>
+            <repository name="examples"/>
+            <repository name="googlecharts"/>
+            <repository name="googlefinance"/>
+            <repository name="help"/>
+            <repository name="io"/>
+            <repository name="k4unit"/>
+            <repository name="reservedwords"/>
+            <repository name="smultron"/>
+            <repository name="tick"/>
+            <repository name="tickrecover"/>
+            <repository name="vim"/>
+        </svn>
+    </contributor>
+
+    <contributor display-name="tlynch" sort-name="tlynch"/>
+
+    <contributor display-name="weaves" sort-name="weaves"/>
+
+    <contributor display-name="whchan" sort-name="whchan"/>
+
+    <contributor display-name="wiki" sort-name="wiki"/>
+
+    <contributor display-name="xichen" sort-name="xichen"/>
+
+    <contributor display-name="ytian" sort-name="ytian"/>
+
+    <contributor display-name="zuoqianxu" sort-name="zuoqianxu"/>
+
+</contributors>
