@@ -1,6 +1,20 @@
 <?xml version="1.0"?>
 <contributors>
 
+	<contributor display-name="Kumar Ramanathan" sort-name="Kumar Ramanathan" personal-name="Kumar" family-name="Ramanathan">
+		<email>kumar.ramanathan@gmail.com</email>
+		<country>India</country>
+		<bio>Bombay</bio>
+		<github user="krish240574">
+			<repository name="lstmq">
+				<description>
+					LSTM( Long short-term memory) neural network
+				</description>
+				<category>Applications</category>
+			</repository>
+		</github>
+	</contributor>
+
 	<contributor display-name="Samuel Reed" sort-name="Samuel Reed" personal-name="Samuel" family-name="Reed">
 		<email>samuel.trace.reed@gmail.com</email>
 		<url>http://www.bitmex.com</url>
