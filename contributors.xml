@@ -155,7 +155,9 @@
 			</repository>
 			<repository name="qp">
 				<description>
-					a helper that makes installation for q more standardized and easier to use
+<!-- 					a helper that makes installation for q more standardized and easier to use
+ -->				
+ 					a package manager for kdb+
 				</description>
 				<category>Development tools</category>
 			</repository>
