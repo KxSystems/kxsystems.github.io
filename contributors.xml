@@ -1,6 +1,21 @@
 <?xml version="1.0"?>
 <contributors>
 
+	<contributor display-name="Nitish Kumar" sort-name="Nitish Kumar" personal-name="Nitish" family-name="Kumar">
+		<email>nitishkumar1101@gmail.com</email>
+		<url>https://www.linkedin.com/in/nks101</url>
+		<country>India</country>
+		<bio>JPMorgan Chase, Bangalore</bio>
+		<github user="nitishkumarsinha">
+			<repository name="kdbreport">
+				<description>
+					convert a table to present as reports as email body
+				</description>
+				<category>Utilities</category>
+			</repository>
+		</github>
+	</contributor>
+
 	<contributor display-name="Kumar Ramanathan" sort-name="Kumar Ramanathan" personal-name="Kumar" family-name="Ramanathan">
 		<email>kumar.ramanathan@gmail.com</email>
 		<url>https://www.linkedin.com/in/kumar-ramanathan-52007a1</url>
