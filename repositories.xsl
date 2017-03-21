@@ -64,7 +64,8 @@
 								<xsl:if test="category!='Frameworks'"> <!--suppress Frameworks-->
 									<li>
 										<a>
-											<xsl:attribute name="href">#<xsl:value-of select="category"/></xsl:attribute>
+											<xsl:attribute name="href">#<xsl:value-of select="translate(category,' ','-')"/></xsl:attribute>
+											<!-- <xsl:call-template name="title-case"><xsl:with-param name="str" select="category"/></xsl:call-template> -->
 											<xsl:call-template name="title-case"><xsl:with-param name="str" select="category"/></xsl:call-template>
 										</a>
 									</li>
@@ -87,7 +88,7 @@
 					<div id="contributors">
 						<h2>Contributors</h2>
 						<ul>
-							<xsl:for-each select="contributors/contributor[github]">
+							<xsl:for-each select="contributors/contributor[github/repository]">
 								<xsl:sort select="translate(@display-name, $lower-case, $upper-case)"/>
 								<li>
 									<a>
@@ -215,7 +216,7 @@
 							<xsl:if test="count(category)and category!='Frameworks'"><!--suppress Frameworks-->
 
 								<div class="panel">
-									<xsl:attribute name="id"><xsl:value-of select="category"/></xsl:attribute>
+									<xsl:attribute name="id"><xsl:value-of select="translate(category,' ','-')"/></xsl:attribute>
 
 									<h2><xsl:call-template name="title-case"><xsl:with-param name="str" select="category"/></xsl:call-template></h2>
 

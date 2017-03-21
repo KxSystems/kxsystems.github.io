@@ -107,6 +107,18 @@
 		<bio>Melbourne</bio>
 		<url>http://irrationalidiom.com/</url>
 		<github user="lmartinking">
+			<repository name="qgz">
+				<description>GZip decompression</description>
+				<category>Utilities</category>
+				<os>Mac</os>
+				<os>Linux</os>
+			</repository>
+			<repository name="qrapidjson">
+				<description>Rapid JSON serialiser</description>
+				<category>Utilities</category>
+				<os>Mac</os>
+				<os>Linux</os>
+			</repository>
 			<repository name="broq">
 				<description>
 					Brotli file decompression plugin for kdb+/q
@@ -122,7 +134,7 @@
 		<email>ytzchaim@gmail.com</email>
 		<country>Greece</country>
 		<github user="ytz">
-			<repository name="KGraphicalExtension">
+<!-- 			<repository name="KGraphicalExtension" active="false">
 				<description>
 					A GUI toolkit that connects to a kdb+ servers, 
 					allowing the representation of variables on the server in GUI widgets
@@ -130,7 +142,7 @@
 				<category>Utilities</category>
 				<tag>gui</tag>
 			</repository>
-			<!--
+ -->			<!--
 				empty repo
 			<repository name="comp-generator"/>
 			-->
@@ -397,7 +409,7 @@
 		<bio>data scientist at Conductor, Inc., New York City</bio>
 		<url>https://sites.google.com/site/samkennerly/</url>
 		<github user="samkennerly">
-			<repository name="q-practice">
+			<repository name="q_practice">
 				<description>Quick reference guide for some Q tasks</description>
 				
 			<category>Examples</category></repository>
@@ -452,31 +464,31 @@
 				</description>
 				
 			<category>Applications</category></repository>
-			<repository name="BinaryAndBarrierOptions">
+<!-- 			<repository name="BinaryAndBarrierOptions" active="false">
 				<description>
 					pricing models for binary and barrier options
 				</description>
 				
 			<category>Examples</category></repository>
-			<repository name="kdbplus/impliedRiskNeutralDist-Viewer">
+			<repository name="kdbplus/impliedRiskNeutralDist-Viewer" active="false">
 				<description>
 					implied-risk neutral-distribution viewer
 				</description>
 				
 			<category>Applications</category></repository>
-			<repository name="kdbplus/PhysicalDist-Viewer">
+			<repository name="kdbplus/PhysicalDist-Viewer" active="false">
 				<description>
 					estimation of physical distribution based on historical data using Gaussian Kernel
 				</description>
 				
 			<category>Applications</category></repository>
-			<repository name="kdbplus/BSModelViewer">
+			<repository name="kdbplus/BSModelViewer" active="false">
 				<description>
 					A graphical viewer for Black-Scholes model for European Call Option
 				</description>
 				
 			<category>Applications</category></repository>
-			<repository name="qPoliticalSentimentAnalysis">
+ -->			<repository name="qPoliticalSentimentAnalysis">
 				<description>
 					Political Sentiment Analysis of Facebook Comments using Boosting Algorithm
 				</description>
@@ -557,12 +569,12 @@
 		<twitter>@mikemuon</twitter>
 		<img>https://pbs.twimg.com/profile_images/2832989668/4991e9ae63076e6d1c06922967709fd4_400x400.jpeg</img>
 		<github user="mikemuon">
-			<repository name="kdb">
+<!-- 			<repository name="kdb" active="false">
 				
 				<description>solutions to miscellaneous analytical problems</description>
 				
 			<category>Examples</category></repository>
-		</github>
+ -->		</github>
 	</contributor>
 
 	<contributor display-name="Mohammad Noor" sort-name="NoorMohammad" personal-name="Mohammad" family-name="Noor">
@@ -592,11 +604,11 @@
 				
 				
 			<interface to="Interactive Brokers"/></repository>
-			<repository name="project-euler">
+			<repository name="projecteuler">
 				
 				<description>solutions to Project Euler problems</description>
 				
-			<category>Mathematics</category></repository>
+			<category>Examples</category></repository>
 			<repository name="qfxcm">
 				
 				<description>wrapper for FXCM's ForexConnect</description>
@@ -1078,12 +1090,12 @@
 				
 				
 			<interface to="Twitter"/></repository>
-			<repository name="qmaths">
+<!-- 			<repository name="qmaths" active="false">
 				
 				<description>math and statistics library</description>
 				
 			<category>Mathematics</category></repository>
-		</github>
+ -->		</github>
 	</contributor>
 
 	<contributor display-name="gargraman" sort-name="gargraman">
@@ -1102,9 +1114,9 @@
 	<contributor display-name="Freddie Wu" sort-name="WuFreddie" personal-name="Freddie" family-name="Wu">
 		<email>flying@flying-w.net</email>
 		<country>Singapore</country>
-		<url>http://www.flying-w.net/#!/log</url>
+		<url>http://www.flying-w.net/</url>
 		<github user="FlyingOE">
-			<repository name="q-wind">
+<!-- 			<repository name="q-wind" active="false">
 				
 				<description>
 					interface library for Wind APIs
@@ -1112,7 +1124,7 @@
 				
 				
 			<interface to="Wind"/></repository>
-		</github>
+ -->		</github>
 	</contributor>
 
 	<contributor display-name="Frédéric Délèze" sort-name="DelezeFrederic" personal-name="Frédéric" family-name="Délèze">
@@ -1509,7 +1521,7 @@
     	<img>https://media.licdn.com/media/p/1/000/0e6/2ab/1dca49d.jpg</img>
 
     	<github user="anton-dovzhenko">
-    		<repository name="java-kdb-plus-integration">
+<!--     		<repository name="java-kdb-plus-integration" active="false">
     			
     			<url>https://github.com/anton-dovzhenko/java-kdbplus-integration</url>
     			<description>
@@ -1518,7 +1530,7 @@
     			
     			
     		<interface to="Java"/></repository>
-    	</github>
+ -->    	</github>
     </contributor>
 
     <contributor display-name="Andrew King" sort-name="KingAndrew" personal-name="Andrew" family-name="King">
@@ -1736,7 +1748,7 @@
             	<description>JSON output</description>
             	
             <category>Utilities</category></repository>
-            <repository name="qmode">
+<!--             <repository name="qmode" active="false">
             	
             	<description>
             		Emacs package:
@@ -1745,7 +1757,7 @@
              	
              	
             <editor-plugin for="Emacs"/></repository>
-        </github>
+ -->        </github>
         <svn user="dnugent"><!--A README points to GitHub, with broken links--></svn>
     </contributor>
 
@@ -1958,7 +1970,7 @@
                 	solutions to Euler’s problems
                 </description>
                 
-            <category>Mathematics</category></repository>
+            <category>Examples</category></repository>
             <repository name="Q">
                 
                 <description>language integration of q into Sublime Text 2</description>
@@ -2032,7 +2044,7 @@
     	<bio>director, eFX at Commerzbank AG</bio>
     	<img>https://media.licdn.com/media/p/2/005/062/10c/2528ece.jpg</img>
         <url>http://www.theresearchkitchen.com</url>
-        <url>http://www.linkedin.com/roryw</url>
+        <url>https://www.linkedin.com/in/rorywinston/</url>
         <email>rory@theresearchkitchen.com</email>
         <phone>+61 4 5777 6088</phone>
         <github user="rwinston">
