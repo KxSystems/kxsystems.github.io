@@ -1958,12 +1958,9 @@
                 
                 <description>quantitative finance library</description>
                 
-            <category>Mathematics</category></repository>
-            <repository name="qml">
-                
-                <description>q math library</description>
-                
-            <category>Mathematics</category></repository>
+            <category>Mathematics</category>
+	        </repository>
+
             <repository name="kdb-euler">
                 
                 <description>
