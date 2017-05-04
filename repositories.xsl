@@ -15,7 +15,7 @@
 
 	<xsl:variable name="lower-case">abcdefghijklmnopqrstuvwxyz</xsl:variable>
 	<xsl:variable name="upper-case">ABCDEFGHIJKLMNOPQRSTUVWXYZ</xsl:variable>
-	<xsl:variable name="title">Kx REPOSITORIES ON GITHUB</xsl:variable>
+	<xsl:variable name="title">Kdb+ repositories on GitHub</xsl:variable>
 
 	<xsl:template match="/">
 		<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>

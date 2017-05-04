@@ -1,6 +1,41 @@
 <?xml version="1.0"?>
 <contributors>
 
+	<contributor display-name="Enlightenment Research" sort-name="Enlightenment Research" company-name="Enlightenment Research">
+		<email>a@enlnt.com</email>
+		<url>http://www.enlnt.com/</url>
+		<country>USA</country>
+		<bio>NYC</bio>
+		<github user="enlnt">
+			<repository name="pyq">
+				<description>
+					Python and q objects live in the same memory space and share the same data.
+				</description>
+				<interface to="Python"/>
+			</repository>
+			<repository name="ffiq">
+				<description>
+					Foreign-function interface for q
+				</description>
+				<interface to="C"/>
+			</repository>
+			<repository name="pyk">
+				<description>
+					Python wrapper for libk20
+				</description>
+				<interface to="Python"/>
+			</repository>
+			<repository name="kdb-magic">
+				<description>
+					UNIX "file" command's magic patterns for kdb+ files
+				</description>
+				<interface to="Unix"/>
+				<os>Linux</os>
+			</repository>
+		</github>
+	</contributor>
+
+
 	<contributor display-name="Nitish Kumar" sort-name="Nitish Kumar" personal-name="Nitish" family-name="Kumar">
 		<email>nitishkumar1101@gmail.com</email>
 		<url>https://www.linkedin.com/in/nks101</url>
@@ -96,7 +131,7 @@
 				</description>
 				<interface to="Jupyter"/>
 				<os>Linux</os>
-				<os>Mac</os>
+				<os>macOS</os>
 			</repository>
 		</github>
 	</contributor>
@@ -110,13 +145,13 @@
 			<repository name="qgz">
 				<description>GZip decompression</description>
 				<category>Utilities</category>
-				<os>Mac</os>
+				<os>macOS</os>
 				<os>Linux</os>
 			</repository>
 			<repository name="qrapidjson">
 				<description>Rapid JSON serialiser</description>
 				<category>Utilities</category>
-				<os>Mac</os>
+				<os>macOS</os>
 				<os>Linux</os>
 			</repository>
 			<repository name="broq">
@@ -124,7 +159,7 @@
 					Brotli file decompression plugin for kdb+/q
 				</description>
 				<category>Utilities</category>
-				<os>Mac</os>
+				<os>macOS</os>
 				<os>Linux</os>
 			</repository>
 		</github>
@@ -396,7 +431,7 @@
 				</description>
 				
 				
-				<os>Mac</os>
+				<os>macOS</os>
 				<os>CentOS</os>
 			<interface to="Erlang"/></repository>
 		</github>
@@ -1065,7 +1100,7 @@
 				</description>
 				
 				
-				<os>Mac</os>
+				<os>macOS</os>
 				<os>Linux</os>
 			<interface to="Lua"/></repository>
 			<repository name="qphp">
@@ -1140,7 +1175,7 @@
 					kdb+ database
 				</description>
 				
-				<os>Mac</os>
+				<os>macOS</os>
 				<os>Linux</os>
 			<category>Development tools</category></repository>
 		</github>
@@ -1164,7 +1199,7 @@
 				</description>
 				
 				
-				<os>Mac</os>
+				<os>macOS</os>
 			<interface to="Expat"/></repository>
 		</github>
 	</contributor>
@@ -1192,27 +1227,6 @@
 				</description>
 				<interface to="Python"/>
 			</repository>
-		</github>
-	</contributor>
-
-	<contributor display-name="Enlightenment Research" sort-name="Enlightenment Research" company-name="Enlightenment Research">
-		<country>USA</country>
-		<bio>NYC</bio>
-		<github user="enlnt">
-			<repository name="pyq">
-				
-				<url>https://pyq.enlnt.com</url>
-				<description>
-					PyQ provides seamless integration of Python and Q
-					code. It brings Python and Q interpretors in the
-					same process and allows code written in either of
-					the languages to operate on the same data. In PyQ,
-					Python and Q objects live in the same memory space
-					and share the same data.
-				</description>
-				
-				
-			<interface to="Python"/></repository>
 		</github>
 	</contributor>
 
@@ -1828,7 +1842,7 @@
         		</description>
         		<category>Development tools</category>
         		<os>Linux</os>
-        		<os>Mac</os>
+        		<os>macOS</os>
         	</repository>
 
             <repository name="qzmq">
@@ -1847,7 +1861,7 @@
             	</description>
             	
             	
-            	<os>Mac</os>
+            	<os>macOS</os>
             	<os>Linux</os>
             	<os>Windows</os>
             <interface to="PLplot"/></repository>
@@ -1910,7 +1924,7 @@
                 <description>
                 	kdb+/q syntax highlighting for the Sublime editor
                 </description>
-                <os>Mac</os>
+                <os>macOS</os>
                 <os>Linux</os>
                 <os>Windows</os>
                 

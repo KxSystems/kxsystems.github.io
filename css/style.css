@@ -89,17 +89,20 @@ th.hdg {
 	opacity: .8;
 }
 #contact {
+	border-radius: 5px;
 	padding: 0 .5em;
 	position: absolute; top: 0; right: 5px;
 }
 #contributors {
 	background-color: #EEE;
+	border-radius: 5px;
 	float: right;
 	opacity: .8;
 	width: 20em;
 }
 #intro {
 	background-color: #fff;
+	border-radius: 5px;
 	opacity: .8;
 	padding: .5em 1em;
 	width: 38em;
