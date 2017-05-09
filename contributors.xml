@@ -31,6 +31,8 @@
 				</description>
 				<interface to="Unix"/>
 				<os>Linux</os>
+				<os>macOS</os>
+				<os>Unix</os>
 			</repository>
 		</github>
 	</contributor>
