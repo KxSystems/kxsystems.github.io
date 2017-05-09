@@ -112,10 +112,19 @@
 					</div>
 
 					<div id="intro">
-						Kx Technology is an integrated platform – kdb+ – which includes a high performance historical time-series column-store database, 
-						an in-memory compute engine, and a real-time event processor all with a unifying expressive query and programming language. 
-						Designed from the start for extreme scale, and running on industry standard servers, 
-						Kx Technology has been proven to solve complex problems faster than any of its competitors.
+						<p>
+							Kx Technology is an integrated platform: kdb+, which includes a high-performance historical time-series column-store database, 
+							an in-memory compute engine, and a real-time event processor all with a unifying expressive query and programming language. 
+							Designed from the start for extreme scale, and running on industry standard servers, 
+							Kx Technology has been proven to solve complex problems faster than any of its competitors.
+						</p>
+						<p>Kx Systems’ <a href="https://github.com/KxSystems/">own repositories</a> are on GitHub, including</p>
+						<ul>
+							<li><a href="https://github.com/KxSystems/kdb">kdb+</a></li>
+							<li><a href="https://github.com/KxSystems/kdb-taq">kdb+taq</a></li>
+							<li><a href="https://github.com/KxSystems/kdb-tick">kdb+tick</a></li>
+							<li><a href="https://github.com/KxSystems/cookbook">cookbook</a></li>
+						</ul>
 					</div>
 
 					<!-- Featured -->

@@ -366,7 +366,7 @@
 		<github user="stevanapter">
 			<repository name="hypertree" featured="yes">
 				<description>
-					recursive aggregating treetable and 3-d pivot table for hypergrid
+					recursive aggregating treetable and 3D pivot table for hypergrid
 				</description>
 				<category>Examples</category>
 			</repository>
@@ -622,7 +622,7 @@
 			<repository name="Kdb-stuff" featured="yes">
 				
 				<description>
-					ServerChecker: how to execute commands on a remote box via ssh from within a Kdb process + parse linux system info (cpuinfo/meminfo/df)
+					ServerChecker: how to execute commands on a remote box via ssh from within a q process and parse Linux system info (cpuinfo/meminfo/df)
 				</description>
 				
 			<category>Examples</category></repository>
@@ -1663,7 +1663,7 @@
     	<github user="CharlesSkelton/">
     		<repository name="studio" featured="yes">
     			<description>
-    				A rapid-development environment for kdb+
+    				A rapid-development environment for q
     			</description>
     			
     		<category>Development tools</category></repository>

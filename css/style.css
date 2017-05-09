@@ -107,6 +107,14 @@ th.hdg {
 	padding: .5em 1em;
 	width: 38em;
 }
+#intro p {
+	margin-bottom: .6em;
+}
+#intro li {
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 1em;
+}
 #scrollable {
 	position: relative;
 	z-index: 2;
