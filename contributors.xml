@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <contributors>
 
+	<contributor display-name="Gerry Manoim" sort-name="Gerry manoim" personal-name="Gerry" family-name="Manoim">
+		<email>gerrymanoim@gmail.com</email>
+		<github user="newtux">
+			<repository name="KdbQ_kernel">
+				<description>Jupyter kernel for q</description>
+				<interface to="Jupyter"/>
+			</repository>
+		</github>
+	</contributor>
+
+
+
 	<contributor display-name="Enlightenment Research" sort-name="Enlightenment Research" company-name="Enlightenment Research">
 		<email>a@enlnt.com</email>
 		<url>http://www.enlnt.com/</url>
@@ -77,7 +89,7 @@
 		<github user="BitMEX">
 			<repository name="c.js">
 				<description>
-					Serialization/deserialization library for communicating with kdb+'s native IPC format.
+					Serialization/deserialization library for communicating with q’s native IPC format.
 					This repository is refactoring of the c.js project 
 					with performance improvements, bugfixes, and unit tests.
 				</description>
@@ -109,7 +121,7 @@
 		<github user="effbiae">
 			<repository name="kx">
 				<description>
-					collection of kx related code from code.kx.com and the lists.
+					collection of code from code.kx.com and the lists.
 					r is a small parser for RPN. 
 					g is to g.k as x is to xterm.
 					sc dynamically calls functions by their address on AMD_64.
@@ -158,7 +170,7 @@
 			</repository>
 			<repository name="broq">
 				<description>
-					Brotli file decompression plugin for kdb+/q
+					Brotli file decompression
 				</description>
 				<category>Utilities</category>
 				<os>macOS</os>
@@ -194,7 +206,7 @@
 		<email>zak.oudrhiri@hotmail.com</email>
 		<github user="zakoud">
 			<repository name="mlq">
-				<description>Machine Learning for kdb+/q</description>
+				<description>Machine Learning for q</description>
 				<category>Examples</category>
 			</repository>
 			<repository name="options">
@@ -221,7 +233,7 @@
 				<description>
 <!-- 					a helper that makes installation for q more standardized and easier to use
  -->				
- 					a package manager for kdb+
+ 					a package manager for q
 				</description>
 				<category>Development tools</category>
 			</repository>
@@ -233,7 +245,7 @@
 			</repository>
 			<repository name="timer">
 				<description>
-					Overwrites .z.ts to become a timer based callback function
+					Overwrites .z.ts to become a timer-based callback function
 				</description>
 				<category>Utilities</category>
 			</repository>
@@ -283,7 +295,7 @@
 			</repository>
 			<repository name="jwt.q">
 				<description>
-					JSON Web Token signing and parsing for kdb+/Q
+					JSON Web Token signing and parsing for q
 				</description>
 				<category>Utilities</category>
 				<os>Linux</os>
@@ -307,16 +319,15 @@
 		<github user="tlack">
 			<repository name="quagga">
 				<description>
-					an experiment in building a web-based development environment for Q/Kdb+
+					an experiment in building a web-based development environment for q
 				</description>
 				<category>Web</category>
 			</repository>
 			<repository name="qmvp">
 				<description>
-					Q Minimum Viable Product is a barebones boiler-plate Q webserver 
+					Q Minimum Viable Product is a barebones boiler-plate webserver 
 					that includes templating, serving from html/, index files, and logging.
 				</description>
-				<category>Applications</category>
 				<category>Web</category>
 			</repository>
 			<repository name="persist-state.q">
@@ -327,7 +338,7 @@
 			</repository>
 			<repository name="qqq">
 				<description>
-					useful functions for creating websites with Q and Kdb+
+					useful functions for creating websites
 				</description>
 				<category>Web</category>
 			</repository>
@@ -366,7 +377,7 @@
 		<github user="stevanapter">
 			<repository name="hypertree" featured="yes">
 				<description>
-					recursive aggregating treetable and 3D pivot table for hypergrid
+					recursive aggregating treetable and 3-D pivot table for hypergrid
 				</description>
 				<category>Examples</category>
 			</repository>
@@ -406,13 +417,13 @@
 			</repository>
 			<repository name="3dsim">
 				<description>
-					3D world simulation using kdb+/k/q web socket server and three.js
+					3-D world simulation using kdb+/k/q WebSocket server and three.js
 				</description>
 				<category>Applications</category>
 			</repository>
 			<repository name="kxl">
 				<description>
-					Experimental spreadsheet UI for kdb+/k4/q
+					Experimental spreadsheet UI
 				</description>
 				<category>Examples</category>
 			</repository>
@@ -447,7 +458,7 @@
 		<url>https://sites.google.com/site/samkennerly/</url>
 		<github user="samkennerly">
 			<repository name="q_practice">
-				<description>Quick reference guide for some Q tasks</description>
+				<description>Quick reference guide for some q tasks</description>
 				
 			<category>Examples</category></repository>
 		</github>
@@ -462,7 +473,7 @@
 		<github user="semitrivial">
 			<repository name="qdash">
 				<description>
-					a port of the JavaScript Iodash utilities to q/kdb+
+					a port to q of the JavaScript Iodash utilities
 				</description>
 				
 			<category>Web</category></repository>
@@ -527,7 +538,7 @@
 			<category>Applications</category></repository>
  -->			<repository name="qPoliticalSentimentAnalysis">
 				<description>
-					Political Sentiment Analysis of Facebook Comments using Boosting Algorithm
+					Political Sentiment Analysis of Facebook comments using Boosting Algorithm
 				</description>
 				
 			<category>Applications</category></repository>
@@ -555,7 +566,8 @@
 			<repository name="qchart">
 				
 				<description>
-					plot data directly from kdb (using javascript). Works well with sublime-q. It transform your data into json and render it into html/javascript template. 
+					plot data directly from q (using JavaScript). Works well with sublime-q. 
+					Transform your data into JSON and renders it into a HTML/JavaScript template. 
 				</description>
 				
 			<category>Utilities</category></repository>
@@ -622,10 +634,10 @@
 			<repository name="Kdb-stuff" featured="yes">
 				
 				<description>
-					ServerChecker: how to execute commands on a remote box via ssh from within a q process and parse Linux system info (cpuinfo/meminfo/df)
+					ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df)
 				</description>
 				
-			<category>Examples</category></repository>
+			<category>Development tools</category></repository>
 		</github>
 	</contributor>
 
@@ -680,7 +692,7 @@
 			<repository name="TSE-FLEX-Converter">
 				
 				<description>
-					 converts Tokyo Stock Exchnage FLEX Historical message data to kdb+ or csv file
+					 converts Tokyo Stock Exchange FLEX Historical message data to kdb+ or csv file
 				</description>
 				
 				
@@ -688,7 +700,7 @@
 			<repository name="kdb-jfx-viewer">
 				
 				<description>
-					(Making) kdb realtime viewer by JavaFX
+					(Making) q realtime viewer by JavaFX
 				</description>
 				
 				
@@ -713,7 +725,7 @@
 			<repository name="qtips">
 				
 				<description>
-					Source files for "Q Tips: Fast, Scalable and Maintainable Kdb+" 
+					Source files for “Q Tips: Fast, Scalable and Maintainable Kdb+” 
 					<url>http://q-tips.net</url>
 				</description>
 				
@@ -729,7 +741,7 @@
 			<repository name="funq">
 				
 				<description>
-					Functional Introduction to Machine Learning in Q
+					Functional Introduction to Machine Learning in q
 				</description>
 				
 			<category>Examples</category></repository>
@@ -756,7 +768,7 @@
 		<url>https://www.linkedin.com/in/steve-wirts-98238988</url>
 		<bio>software engineer at OpenFin</bio>
 		<github user="stevewirts">
-			<repository name="kdb-vnc">
+			<repository name="kdb-VNC">
 				
 				<description>implementation of simple vnc server</description>
 				
@@ -770,7 +782,7 @@
 		<github user="patmok">
 			<repository name="unparse">
 				
-				<description>unparse parse tree for kdb+/q</description>
+				<description>unparse parse tree for q</description>
 				
 			<category>Development tools</category></repository>
 			<repository name="qvim">
@@ -784,12 +796,12 @@
 			<editor-plugin for="vim"/></repository>
 			<repository name="qcon2">
 				
-				<description>console application to query kdb+</description>
+				<description>console application to query q</description>
 				
 			<category>Development tools</category></repository>
 			<repository name="qprofiler">
 				
-				<description>simple profiler for kdb+/q</description>
+				<description>simple profiler for q</description>
 				
 			<category>Development tools</category></repository>
 		</github>
@@ -959,7 +971,7 @@
 			<repository name="q-doc">
 				
 				<description>
-					Javadoc inspired documentation generator for kdb+
+					Javadoc-inspired documentation generator
 				</description>
 				
 			<category>Development tools</category></repository>
@@ -973,7 +985,7 @@
 			<repository name="q-build">
 				
 				<description>
-					 scripts to allow the standard kdb+ binary
+					 scripts to allow the standard q binary
 					 to be built into RPM and DEB packages
 				</description>
 				
@@ -1063,7 +1075,7 @@
 			<repository name="dash">
 				
 				<description>
-					really fast webserver for kdb (&gt;100kq/sec) and
+					really fast (&gt;100kq/sec) webserver for q and
 					dashboard-making bits
 				</description>
 				
@@ -1173,8 +1185,8 @@
 			<repository name="tickYahoo">
 				
 				<description>
-					jobs to download tick data from yahoo and save in
-					kdb+ database
+					jobs to download tick data from Yahoo! and save in
+					q database
 				</description>
 				
 				<os>macOS</os>
@@ -1327,7 +1339,7 @@
 			<repository name="q-math">
 				
 				<description>
-					library of math functions for q/kdb+
+					library of math functions
 				</description>
 				
 			<category>Mathematics</category></repository>
@@ -1340,10 +1352,10 @@
 				
 				<url>https://github.com/chuchunf/qex</url>
 				<description>
-					A equity exchange implemented in Q running on KDB+
+					An equity exchange
 				</description>
 				
-			<category>Examples</category></repository>
+			<category>Applications</category></repository>
 		</github>
 	</contributor>
 
@@ -1411,7 +1423,7 @@
                 
                 <url>https://github.com/AffinitySystems/ws</url>
                 <description>
-                	workspace utilities for developers
+                	workspace utilities for developers.
 
 					Contains routines for searching functions within a workspace
 					for one or more substrings.  Functions can be specified
@@ -1511,7 +1523,7 @@
             	<url>https://github.com/zholos/qml</url>
             	<description>
 				a library for statistics, linear algebra, and
-				optimization in kdb+. It provides an interface
+				optimization in q. It provides an interface
 				between the q programming language and numerical
 				libraries such as LAPACK.
             	</description>
@@ -1573,8 +1585,9 @@
     			
     			<url>https://github.com/bjconlan/kdb-protocol</url>
     			<description>
-    				Packaged dependencies of the kdb+ ipc protocol classes
-    				as provided at http://kx.com/q/c/
+    				Packaged dependencies of the IPC protocol classes
+    				as provided at 
+    				[KxSystems/kdb/c](https://github.com/KxSystems/kdb/tree/master/c)
     			</description>
     			
     			
@@ -1583,9 +1596,10 @@
     			
     			<url>https://github.com/bjconlan/kdb-jdbc</url>
     			<description>
-    				Packaged dependencies of the kdb+
+    				Packaged dependencies of the 
     				JDBC driver &amp; protocol/connection classes
-    				as provided at http://kx.com/q/c/
+    				as provided at 
+    				[KxSystems/kdb/c](https://github.com/KxSystems/kdb/tree/master/c)
     			</description>
     			
     			
@@ -1616,7 +1630,7 @@
     		<repository name="VD_KDB">
     			
     			<url>https://github.com/vschon/VD_KDB</url>
-    			<description>Forex tick database in KDB</description>
+    			<description>Forex tick database</description>
     			
     			
     		<category>Applications</category><tag>FX</tag></repository>
@@ -1737,19 +1751,13 @@
             	
             	<description>
             		provides several different common utility
-            		functionalities for use with Q programs.  These
-            		currently include: an option parsing facility as an
-            		alternative to .Q.opt; and a file loading facility
+            		functions.  These
+            		currently include: an option-parsing facility as an
+            		alternative to .Q.opt; and a file-loading facility
             		based on a pathlist and supporting version numbers
             	</description>
             	
             <category>Utilities</category></repository>
-            <repository name="krust">
-            	
-            	<description>kdb-Rust embedding and interprocess control</description>
-            	
-            	
-            <interface to="Rust"/></repository>
             <repository name="q-mode"/>
             <repository name="q">
             	
@@ -2030,7 +2038,7 @@
             <repository name="mserve">
             	
             	<description>
-            		Enhanced mserve load balanced solution
+            		Enhanced mserve load-balanced solution
             	</description>
             	
         	<category>Applications</category></repository>
@@ -2085,7 +2093,7 @@
         <email>simon@kx.com</email>
         <github user="simongarland">
         	<repository name="reservedwords">
-        		<description>something to do with q’s reserved words</description>
+        		<description>Lists q’s reserved words</description>
         		<category>Development tools</category>
         	</repository>
         	<repository name="io">
@@ -2098,7 +2106,7 @@
         	</repository>
         	<repository name="tick">
         		<description>
-        			use <em>instead</em> of an rdb to append data to disk partition during day 
+        			use <em>instead</em> of an RDB to append data to disk partition during day 
         			and use that to build historical partition at day end
         		</description>
         		<category>Development tools</category>
@@ -2108,18 +2116,18 @@
         		<category>Applications</category>
         	</repository>
         	<repository name="vim">
-        		<description>Vim Support for kdb+</description>
+        		<description>Vim support for q</description>
         		<editor-plugin for="vim"/>
         	</repository>
         	<repository name="k4unit">
         		<description>
-        			k4 unit testing, loads tests from csv's, runs+logs to database
+        			k4 unit testing, loads tests from CSVs, runs+logs to database
         		</description>
         		<category>Development tools</category>
         	</repository>
         	<repository name="dotz">
         		<description>
-        			control external (.z.p*) access to  a kdb+ session, log access errors to file
+        			control external (.z.p*) access to a q session, log access errors to file
         		</description>
         		<category>Development tools</category>
         	</repository>
@@ -2137,7 +2145,7 @@
 			</repository>
 			<repository name="csvguess">
 				<description>
-					guess a reasonable loadstring for a csv file (kdb+ 2.4 or greater)
+					guess a reasonable loadstring for a CSV file (V2.4+)
 				</description>
 				<category>Development tools</category>
 			</repository>
