@@ -120,10 +120,12 @@
 						</p>
 						<p>Kx Systems’ <a href="https://github.com/KxSystems/">own repositories</a> are on GitHub, including</p>
 						<ul>
-							<li><a href="https://github.com/KxSystems/kdb">kdb+</a></li>
-							<li><a href="https://github.com/KxSystems/kdb-taq">kdb+taq</a></li>
-							<li><a href="https://github.com/KxSystems/kdb-tick">kdb+tick</a></li>
-							<li><a href="https://github.com/KxSystems/cookbook">cookbook</a></li>
+							<li><a href="https://github.com/KxSystems/cookbook" title="companion scripts to the Cookbook">cookbook</a></li>
+							<li><a href="https://github.com/KxSystems/kafka" title="interface to Apache Kafka">kafka</a></li>
+							<li><a href="https://github.com/KxSystems/kdb" title="companion scripts to kdb+">kdb+</a></li>
+							<li><a href="https://github.com/KxSystems/kdb-taq" title="trade-and-quote data">kdb+taq</a></li>
+							<li><a href="https://github.com/KxSystems/kdb-tick" title="ticker plant">kdb+tick</a></li>
+							<li><a href="https://github.com/KxSystems/qserver" title="R client for q">qserver</a></li>
 						</ul>
 					</div>
 
