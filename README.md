@@ -1,10 +1,7 @@
 User-contributed kdb+ repositories on GitHub
 ============================================
 
-This is Kx Systems’ catalogue of user-contributed kdb+ repositories on GitHub, 
-published at https://kxsystems.github.io
+User-contributed kdb+ repositories on GitHub, 
+are now listed on code.kx.com. 
 
-The source is in `contributors.xml`, from which `compile.sh` writes `index.html`. The XML is supposed to document itself. 
-
-To include your own repository, fork this repository and submit a pull request. 
-Or write to [librarian@kx.com](mailto:librarian@kx.com).
+Please write to [librarian@kx.com](mailto:librarian@kx.com) with additions or changes. 
