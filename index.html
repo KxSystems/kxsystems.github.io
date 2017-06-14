@@ -1,8 +1,15 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://use.fontawesome.com/3dbf29ed12.js"></script>
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///Users/sjt/Projects/kx/github.io/index.html -->
+<html class="fa-events-icons-ready">
+    <head>
+    <link href="./index_files/3dbf29ed12.css" media="all" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="copyright" content="Kx Systems 2017">
+    <meta name="DC.title" content="An index to the kdb+ and q (programming language) repositories on GitHub">
+    <meta name="description" content="An index to the kdb+ and q (programming language) repositories on GitHub">
+    <meta name="robots" content="index,follow">
+    <script src="./index_files/jquery-3.1.1.min.js"></script>
+    <script src="./index_files/3dbf29ed12.js"></script>
     <style type="text/css">
         * {
             margin: 0;
@@ -19,7 +26,17 @@
         }
         h2 {
             font-weight: 300;
-            margin: 1em 0 .3em;
+            margin: 1em 0 .5em;
+        }
+
+        dl {
+            font-size: 90%;
+        }
+        dd {
+            margin: 0 0 .8em 1em;
+        }
+        dt {
+            font-weight: bold;
         }
         p {
             margin-bottom: .8em;
@@ -42,117 +59,133 @@
         a:hover {
             color: orange;
         }
-        #lists {
+        .lists {
             font-size: 1.2em;
         }
-        #lists td{
+        .lists td{
             padding: .5em 3em;
+        }
+        #general-index {
+            border: 1px solid #005499;
+            border-radius: 10px;
+            margin-bottom: 1em;
+            padding-top: .5em;
+        }
+        #general-index caption {
+            border-bottom: 1px dashed #005499;
+            padding: .5em;
         }
         .shaded {
             background-color: #efefef;
         }
     </style>
-    <title>Kdb+ on GitHub</title>
+    <title>Kdb+ repositories on GitHub</title>
 </head>
 <body>
 
-<h1 id="kdb-on-github" style="background-color: #005499; border-radius: 5px; color: white; margin-bottom: 1em; padding: .5em 0.5em 3em;">Kdb+ on GitHub</h1>
+<h1 id="kdb-on-github" style="background-color: #005499; border-radius: 5px; color: white; margin-bottom: .3em; padding: .5em 0.5em 3em;">Kdb+ on GitHub</h1>
 
-<p style="font-size: .9em; margin-bottom: 1.6em;">     
-    <a href="https://kx.com">Kx Technology</a> is an integrated platform: kdb+, which includes a 
-    high-performance historical time-series column-store database, an in-memory compute
-    engine, and a real-time event processor all with a unifying expressive query and
-    programming language. Designed from the start for extreme scale, and running on
-    industry standard servers, Kx Technology has been proven to solve complex
-    problems faster than any of its competitors. 
-</p>
-
-<p>Kx Systems’ own repositories are on GitHub, including</p>
-
-<table>
-    <tr>
-        <td class="nowrap"><a href="https://github.com/KxSystems/cookbook">cookbook</a></td>
-        <td>companion files to the <a href="http://code.kx.com/q/cookbook/introduction">Cookbook</a></td>
-    </tr>
-    <tr class="shaded">
-        <td class="nowrap"><a href="https://github.com/KxSystems/kafka">kafka</a></td>
-        <td>Q client for <a href="https://kafka.apache.org">Apache Kafka</a></td>
-    </tr>
-    <tr>
-        <td class="nowrap"><a href="https://github.com/KxSystems/kdb">kdb</a></td>
-        <td>companion files to the kdb+ product</td>
-    </tr>
-    <tr class="shaded">
-        <td class="nowrap"><a href="https://github.com/KxSystems/kdb-taq">kdb-taq</a></td>
-        <td>processing trade-and-quote data</td>
-    </tr>
-    <tr>
-        <td class="nowrap"><a href="https://github.com/KxSystems/kdb-tick">kdb-tick</a></td>
-        <td>ticker plant</td>
-    </tr>
-    <tr class="shaded">
-        <td class="nowrap"><a href="https://github.com/KxSystems/kxblog.contributions">kxblog.contributions</a></td>
-        <td>code shared on the kx.com blog</td>
-    </tr>
-    <tr>
-        <td class="nowrap"><a href="https://github.com/KxSystems/rkdb">rkdb</a></td>
-        <td>R client for q</td>
-    </tr>
-</table>
-
-<div style="background-color: #eee; border: 1px solid #005499; border-radius: 10px; margin-bottom: 1em; padding: 0.3em 1em .5em;">
-<h2 id="featured"><i class="fa fa-star-o"></i> Featured repositories</h2>
-
-<table id="featured">
-    <tbody>
-        <tr>
-            <td class="nowrap"><a href="https://github.com/stevanapter/hypertree">hypertree</a></td>
-            <td>
-                Recursive aggregating treetable and 3-D pivot table for hypergrid. 
-                <span class="author"><a href="https://github.com/stevanapter?tab=repositories">(Stevan Apter)</a></span>
-            </td>
-        </tr>
-        <tr>
-            <td class="nowrap"><a href="https://github.com/MdSalih/Kdb-stuff">Kdb-stuff</a></td>
-            <td>
-                ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df). 
-                <span class="author"><a href="https://github.com/MdSalih?tab=repositories">(Mohammad Noor)</a></span>
-            </td>
-        </tr>
-        <tr>
-            <td class="nowrap"><a href="https://github.com/CharlesSkelton//studio">studio</a></td>
-            <td>
-                A rapid-development environment for q. 
-                <span class="author"><a href="https://github.com/CharlesSkelton/?tab=repositories">(Charles Skelton)</a></span>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-</div>
-
-<table id="lists">
+<table class="lists">
     <tbody>
         <tr>
             <td><i class="fa fa-map-signs"></i> <a href="https://code.kx.com/q/interfaces/">Interfaces</a></td>
-            <td><i class="fa fa-plug"></i> <a href="https://code.kx.com/q/interfaces/#plugins">Plugins</a></td>
-        </tr>
-        <tr>
-            <td><i class="fa fa-industry"></i> <a href="https://code.kx.com/q/github/#applications">Applications</a></td>
-            <td><i class="fa fa-wrench"></i> <a href="https://code.kx.com/q/github/#development-tools">Development tools</a></td>
-        </tr>
-        <tr>
-            <td><i class="fa fa-eye"></i> <a href="https://code.kx.com/q/github/#examples">Examples</a></td>
-            <td><i class="fa fa-superscript"></i> <a href="https://code.kx.com/q/github/#mathematics">Mathematics</a></td>
-        </tr>
-        <tr>
-            <td><i class="fa fa-cogs"></i> <a href="https://code.kx.com/q/github/#utilities">Utilities</a></td>
-            <td><i class="fa fa-html5"></i> <a href="https://code.kx.com/q/github/#web">Web</a></td>
+            <td><i class="fa fa-plug"></i> <a href="https://code.kx.com/q/interfaces/#plugins">Editor integrations</a></td>
         </tr>
     </tbody>
 </table>
 
-<p>Please contact <a href="mailto:librarian@kx.com">librarian@kx.com</a> with additions or changes.</p>
+<div id="general-index">
+    <table class="lists">
+        <caption><a href="https://code.kx.com/q/github/">General index to kdb+ repositories</a></caption>
+        <tbody>
+            <tr>
+                <td><i class="fa fa-industry"></i> <a href="https://code.kx.com/q/github/#applications">Applications</a></td>
+                <td><i class="fa fa-wrench"></i> <a href="https://code.kx.com/q/github/#development-tools">Development tools</a></td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-eye"></i> <a href="https://code.kx.com/q/github/#examples">Examples</a></td>
+                <td><i class="fa fa-superscript"></i> <a href="https://code.kx.com/q/github/#mathematics">Mathematics</a></td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-cogs"></i> <a href="https://code.kx.com/q/github/#utilities">Utilities</a></td>
+                <td><i class="fa fa-html5"></i> <a href="https://code.kx.com/q/github/#web">Web</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-</body>
-</html>
+<p style="font-size: .9em; margin-bottom: 1.6em;">     
+    <a href="https://kx.com/" style="font-weight: bold;">Kx technology</a> is an integrated platform: kdb+, which includes a 
+    high-performance historical time-series column-store database, an in-memory compute
+    engine, and a real-time event processor all with a unifying expressive query and
+    programming language, <a href="https://code.kx.com/q/" style="font-weight: bold">q</a>. Designed from the start for extreme scale, and running on
+    industry-standard servers, Kx Technology has been proven to solve complex
+    problems faster than any of its competitors. 
+</p>
+
+<div style="float: left; width: 45%">
+    <h2>Kx Systems repositories</h2>
+
+    <dl>
+        <dt><a href="https://github.com/KxSystems/cookbook">cookbook</a></dt>
+        <dd>Companion files to the <a href="http://code.kx.com/q/cookbook/introduction">Cookbook</a></dd>
+
+        <dt><a href="https://github.com/KxSystems/kafka">kafka</a></dt>
+        <dd>Q client for <a href="https://kafka.apache.org/">Apache Kafka</a></dd>
+
+        <dt><a href="https://github.com/KxSystems/kdb">kdb</a></dt>
+        <dd>Companion files to the kdb+ product</dd>
+
+        <dt><a href="https://github.com/KxSystems/kdb-taq">kdb-taq</a></dt>
+        <dd>Processing trade-and-quote data</dd>
+
+        <dt><a href="https://github.com/KxSystems/kdb-tick">kdb-tick</a></dt>
+        <dd>Ticker plant</dd>
+
+        <dt><a href="https://github.com/KxSystems/kxblog.contributions">kxblog.contributions</a></dt>
+        <dd>Code shared on the kx.com blog</dd>
+
+        <dt><a href="https://github.com/KxSystems/rkdb">rkdb</a></dt>
+        <dd>R client for q</dd>
+
+    </dl>
+
+</div>
+
+<div style="background-color: #eee; border: 1px solid #005499; border-radius: 10px; float: right; margin-bottom: 1em; padding: 0.3em 1em .5em; width: 45%">
+    <h2 id="featured"><i class="fa fa-star-o"></i> Featured repositories</h2>
+
+    <table id="featured">
+        <tbody>
+            <tr>
+                <td class="nowrap"><a href="https://github.com/stevanapter/hypertree">hypertree</a></td>
+                <td>
+                    Recursive aggregating treetable and 3-D pivot table for hypergrid. 
+                    <span class="author"><a href="https://github.com/stevanapter?tab=repositories">(Stevan Apter)</a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="nowrap"><a href="https://github.com/MdSalih/Kdb-stuff">Kdb-stuff</a></td>
+                <td>
+                    ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df). 
+                    <span class="author"><a href="https://github.com/MdSalih?tab=repositories">(Mohammad Noor)</a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="nowrap"><a href="https://github.com/CharlesSkelton//studio">studio</a></td>
+                <td>
+                    A rapid-development environment for q. 
+                    <span class="author"><a href="https://github.com/CharlesSkelton/?tab=repositories">(Charles Skelton)</a></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<p style="clear: both; padding-top: 2em;">
+    Please contact <a href="mailto:librarian@kx.com">librarian@kx.com</a> with additions or changes.
+</p>
+
+
+</body></html>
