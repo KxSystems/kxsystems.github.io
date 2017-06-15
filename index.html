@@ -78,6 +78,11 @@
         .shaded {
             background-color: #efefef;
         }
+        .hilite {
+            display: inline-block;
+            background-color: yellow;
+            padding: 0 .3em;
+        }
     </style>
     <title>Kdb+ repositories on GitHub</title>
 </head>
@@ -85,14 +90,10 @@
 
 <h1 id="kdb-on-github" style="background-color: #005499; border-radius: 5px; color: white; margin-bottom: .3em; padding: .5em 0.5em 3em;">Kdb+ on GitHub</h1>
 
-<table class="lists">
-    <tbody>
-        <tr>
-            <td><i class="fa fa-map-signs"></i> <a href="https://code.kx.com/q/interfaces/">Interfaces</a></td>
-            <td><i class="fa fa-plug"></i> <a href="https://code.kx.com/q/interfaces/#plugins">Editor integrations</a></td>
-        </tr>
-    </tbody>
-</table>
+<div class="lists" style="padding: 1em 4em; line-height: 2em;">
+    <i class="fa fa-map-signs"></i> <a href="https://code.kx.com/q/interfaces/">Interfaces to feeds, services and other languages</a><br/>
+    <i class="fa fa-plug"></i> <a href="https://code.kx.com/q/interfaces/#plugins">Integrations with editors and IDEs</a>
+</div>
 
 <div id="general-index">
     <table class="lists">
@@ -112,6 +113,11 @@
             </tr>
         </tbody>
     </table>
+
+    <p style="clear: both; text-align: center;">
+        Please tell <a href="mailto:librarian@kx.com">librarian@kx.com</a> about new repositories
+    </p>
+
 </div>
 
 <p style="font-size: .9em; margin-bottom: 1.6em;">     
@@ -124,14 +130,15 @@
 </p>
 
 <div style="float: left; width: 45%">
-    <h2>Kx Systems repositories</h2>
+    <h2 style="margin-bottom: 0;">Kx Systems repositories</h2>
+    <p style="font-style: italic; font-size: .8em">maintained by Kx Systems</p>
 
     <dl>
         <dt><a href="https://github.com/KxSystems/cookbook">cookbook</a></dt>
         <dd>Companion files to the <a href="http://code.kx.com/q/cookbook/introduction">Cookbook</a></dd>
 
         <dt><a href="https://github.com/KxSystems/kafka">kafka</a></dt>
-        <dd>Q client for <a href="https://kafka.apache.org/">Apache Kafka</a></dd>
+        <dd>Q client for <a href="https://kafka.apache.org/">Apache Kafka <span class="hilite">new</span></a></dd>
 
         <dt><a href="https://github.com/KxSystems/kdb">kdb</a></dt>
         <dd>Companion files to the kdb+ product</dd>
@@ -146,14 +153,14 @@
         <dd>Code shared on the kx.com blog</dd>
 
         <dt><a href="https://github.com/KxSystems/rkdb">rkdb</a></dt>
-        <dd>R client for q</dd>
+        <dd>R client for q <span class="hilite">new</span></dd>
 
     </dl>
 
 </div>
 
 <div style="background-color: #eee; border: 1px solid #005499; border-radius: 10px; float: right; margin-bottom: 1em; padding: 0.3em 1em .5em; width: 45%">
-    <h2 id="featured"><i class="fa fa-star-o"></i> Featured repositories</h2>
+    <h2 id="featured"><i class="fa fa-star-o"></i> Featured user repositories</h2>
 
     <table id="featured">
         <tbody>
@@ -182,10 +189,6 @@
     </table>
 
 </div>
-
-<p style="clear: both; padding-top: 2em;">
-    Please contact <a href="mailto:librarian@kx.com">librarian@kx.com</a> with additions or changes.
-</p>
 
 
 </body></html>
