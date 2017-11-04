@@ -15,6 +15,7 @@
         * {
             margin: 0;
             padding: 0;
+            text-align: left;
         }
         body {
             font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -22,12 +23,20 @@
             margin: 1em auto;
             width: 40em;
         }
+        /* leading */
+        dl, ol, p, ul {
+            margin-bottom: .8em;
+        }
         h1 {
             font-weight: 300;
         }
         h2 {
             font-weight: 300;
             margin: 1em 0 .5em;
+        }
+
+        ol, ul {
+            padding-left: 2em;
         }
 
         dl {
@@ -47,8 +56,12 @@
             margin: 0 auto .8em;
         }
         td, th {
+            font-weight: normal;
             padding: 0 .5em;
             vertical-align: top;
+        }
+        th {
+            color: gray;
         }
         #featured td {
             padding-bottom: .8em;
@@ -60,18 +73,26 @@
         a:hover {
             color: orange;
         }
+        #fusion-index td {
+            padding: .5em 1em .5em 1em;
+        }
+        #fusion-index td.gh {
+            font-weight: bold;
+            padding-right: 0;
+        }
         .lists {
             font-size: 1.2em;
         }
         .lists td{
             padding: .5em 3em;
         }
-        #general-index {
+        #fusion-index, #general-index {
             border: 1px solid #005499;
             border-radius: 10px;
             margin-bottom: 1em;
             padding-top: .5em;
         }
+        #fusion-index caption,
         #general-index caption {
             border-bottom: 1px dashed #005499;
             padding: .5em;
@@ -91,14 +112,59 @@
 
 <h1 id="kdb-on-github" style="background-color: #005499; border-radius: 5px; color: white; margin-bottom: .3em; padding: .5em 0.5em 3em;">Kdb+ on GitHub</h1>
 
-<div class="lists" style="padding: 1em 4em; line-height: 2em;">
+<div>
+    <h2>Fusion interfaces for kdb+</h2>
+    <img alt="Fusion interfaces for kdb+" src="840166516.jpg" style="display: block; width: 40em;"/>
+    <p style="margin-top: .5em;">The Fusion interfaces for kdb+ are</p>
+    <ul>
+        <li>released under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2 license</a></li>
+        <li>well documented, with understandable and useful examples</li>
+        <li>free for all use cases, including 64-bit and commercial use</li>
+        <li>maintained and supported by Kx on a best-efforts basis, at no cost to customers</li>
+    </ul>
+</div>
+
+<div id="fusion-index">
+    <table>
+        <caption style="margin-bottom: 1em; text-align: center;"><a href="https://code.kx.com/q/github/">Fusion for kdb+ repositories</a></caption>
+        <tbody>
+            <tr>
+                <td class="gh"><a href="https://github.com/KxSystems/ffi" title="GitHub repository">ffi</a></td>
+                <td><a href="http://code.kx.com/q/interfaces/ffi/" title="article at code.kx.com">Foreign functions interface for kdb+</a></td>
+                <td class="gh"><a href="https://github.com/KxSystems/pyq" title="GitHub repository">pyq</a></td>
+                <td><a href="https://code.kx.com/q/interfaces/pyq/quickstart/" title="article at code.kx.com">Using Python with kdb+</a></td>
+            </tr>
+            <tr>
+                <td class="gh"><a href="https://github.com/KxSystems/javakdb" title="GitHub repository">javakdb</a></td>
+                <td><a href="http://code.kx.com/q/interfaces/java-client-for-q/" title="article at code.kx.com">Java client for kdb+</a></td>
+                <td class="gh"><a href="https://github.com/KxSystems/rkdb" title="GitHub repository">rkdb</a></td>
+                <td><a href="http://code.kx.com/q/interfaces/with-r" title="article at code.kx.com">R client for q</a></td>
+            </tr>
+            <tr>
+                <td class="gh"><a href="https://github.com/KxSystems/kafka" title="GitHub repository">kafka</a></td>
+                <td><a href="http://code.kx.com/q/interfaces/kafka" title="article at code.kx.com">Q client for Kafka</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p style="font-size: .9em; margin: 2em 0 1.6em;">     
+    <a href="https://kx.com/" style="font-weight: bold;">Kx technology</a> is an integrated platform: kdb+, which includes a 
+    high-performance historical time-series column-store database, an in-memory compute
+    engine, and a real-time event processor all with a unifying expressive query and
+    programming language, <a href="https://code.kx.com/q/" style="font-weight: bold">q</a>. Designed from the start for extreme scale, and running on
+    industry-standard servers, Kx Technology has been proven to solve complex
+    problems faster than any of its competitors. 
+</p>
+
+<div class="lists" style="padding: 0 4em 1em; line-height: 2em;">
     <i class="fa fa-map-signs"></i> <a href="https://code.kx.com/q/interfaces/">Interfaces to feeds, services and other languages</a><br/>
     <i class="fa fa-plug"></i> <a href="http://code.kx.com/q/interfaces/#editor-integrations">Integrations with editors and IDEs</a>
 </div>
 
 <div id="general-index">
     <table class="lists">
-        <caption><a href="https://code.kx.com/q/github/">General index to kdb+ repositories</a></caption>
+        <caption style="margin-bottom: 1em; text-align: center;"><a href="https://code.kx.com/q/github/">General index to kdb+ repositories</a></caption>
         <tbody>
             <tr>
                 <td><i class="fa fa-industry"></i> <a href="https://code.kx.com/q/github/#applications">Applications</a></td>
@@ -121,17 +187,8 @@
 
 </div>
 
-<p style="font-size: .9em; margin-bottom: 1.6em;">     
-    <a href="https://kx.com/" style="font-weight: bold;">Kx technology</a> is an integrated platform: kdb+, which includes a 
-    high-performance historical time-series column-store database, an in-memory compute
-    engine, and a real-time event processor all with a unifying expressive query and
-    programming language, <a href="https://code.kx.com/q/" style="font-weight: bold">q</a>. Designed from the start for extreme scale, and running on
-    industry-standard servers, Kx Technology has been proven to solve complex
-    problems faster than any of its competitors. 
-</p>
-
 <div style="float: left; width: 45%">
-    <h2 style="margin-bottom: 0;">Kx Systems repositories</h2>
+    <h2 style="margin-bottom: 0;">Other repositories</h2>
     <p style="font-style: italic; font-size: .8em">maintained by Kx Systems</p>
 
     <dl>
@@ -143,12 +200,6 @@
 
         <dt><a href="https://github.com/KxSystems/help">help</a></dt>
         <dd>Online help for kdb+</dd>
-
-        <dt><a href="https://github.com/KxSystems/javakdb">javakdb</a></dt>
-        <dd><a href="http://code.kx.com/q/interfaces/java-client-for-q/">Java client for kdb+</a> <span class="hilite">updated</span></a></dd>
-
-        <dt><a href="https://github.com/KxSystems/kafka">kafka</a></dt>
-        <dd>Q client for <a href="https://kafka.apache.org/">Apache Kafka <span class="hilite">new</span></a></dd>
 
         <dt><a href="https://github.com/KxSystems/kdb">kdb</a></dt>
         <dd>Companion files to the kdb+ product</dd>
@@ -162,9 +213,7 @@
         <dt><a href="https://github.com/KxSystems/kxblog.contributions">kxblog.contributions</a></dt>
         <dd>Code shared on the kx.com blog</dd>
 
- -->        <dt><a href="https://github.com/KxSystems/rkdb">rkdb</a></dt>
-        <dd>R client for q <span class="hilite">new</span></dd>
-
+ -->
     </dl>
 
 </div>
